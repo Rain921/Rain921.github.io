@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?76d0pv');
+  src:  url('icomoon.eot?76d0pv#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?76d0pv') format('truetype'),
+    url('icomoon.woff?76d0pv') format('woff'),
+    url('icomoon.svg?76d0pv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+  content: "\e900";
+  color: #eebc6a;
+  font-size: 24px;
+}
+.icon-arrow_up:before {
+  content: "\e901";
+  font-size: 24px;
+}
+.icon-arrowUP:before {
+  content: "\e902";
+  color: #eebc6a;
+   font-size: 24px;
+}
+.icon-BASket:before {
+  content: "\e903";
+  font-size: 20px;
+}
+.icon-BE:before {
+  content: "\e904";
+  font-size: 20px;
+}
+.icon-facebook:before {
+  content: "\e905";
+  font-size: 20px;
+}
+.icon-BEMenu:before {
+  content: "\e906";
+  font-size: 18px;
+}
+.icon-instamenu:before {
+  content: "\e907";
+   font-size: 20px;
+}
+.icon-fmenu:before {
+  content: "\e908";
+   font-size: 20px;
+}
+.icon-instagram:before {
+  content: "\e909";
+  font-size: 20px;
+}
+.icon-logotip .path1:before {
+  content: "\e90a";
+  color: rgb(220, 181, 127);
+}
+.icon-logotip .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(221, 181, 127);
+}
+.icon-mail_icon:before {
+  content: "\e90c";
+  font-size: 17px;
+}
+.icon-P:before {
+  content: "\e90d";
+  font-size: 20px;
+
+}
