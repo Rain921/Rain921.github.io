@@ -57,6 +57,7 @@ html{
     });
 	 .sm-block({
 	 	text-align: center;
+	 	width:100%;
       span{
       	font-size: 9rem;
       	text-shadow: 0px 15px 60px rgba(61, 61, 61, 0.3);
@@ -449,6 +450,7 @@ font-size:19px;
 /*stiky menu*/
 .menuNav{
 	order: 1;
+	background: #fff;
 	position:fixed;
 	right: 1.4%;
 	z-index:1;
@@ -502,15 +504,14 @@ font-size:19px;
 margin-top: -13vh;
 transition: all 0.9s ease;
 box-shadow:none;
-a{
+background: rgba(186, 135, 82, 0.00);
+
     		
     		&:hover {
 				color:#f9c97b;
 				}
-
-
 }
-}
+
 
 /*srvice-button*/
 section{
@@ -681,6 +682,7 @@ footer{
 		    font-size: 6.2rem;
 
 		span{
+
 			display:block;
 			color:  #ffffff;
 		}
@@ -722,6 +724,10 @@ footer{
 			}
 		}
 .uk-modal-close-full{
+.xs-block({
+	left: 72%;
+    top: -16%;
+    });
 	background: none;
 	left: auto;
 	top: -36%;
@@ -736,6 +742,10 @@ footer{
 
 
 .uk-background-cover{
+	.xs-block({
+	  background: url(../img/image.png) #222 no-repeat center center;
+	  background-size:cover;
+    });
 	background: url(../img/logotype.png)#222 no-repeat bottom center;
 	background-size: cover;
 	height: 100%;
@@ -746,10 +756,12 @@ footer{
 /*form*/
 
 .contact{
+	
 	align-self:center;
 	position:relative;
 	max-width: 910px;
     margin: 0 auto;
+
 width: 100%;
 .circe-light;
 input::placeholder {
@@ -766,15 +778,18 @@ input::placeholder {
 	margin-top:49px;
 
 }
-&__input{
-	
-}
+
 	span{
+		
 		font-size: 42.67px;
 		color:  #ffffff;
 	}
 	.circe-bold;
 	input{
+		.xs-block({
+	   margin-right:30px;
+	   margin-left: 30px;
+    });
 		margin-right:20px;
 		width: 248px;
 		height: 42px;
@@ -788,7 +803,6 @@ input::placeholder {
 		box-sizing:border-box;
 		padding-left:22px;
 		
-
 	}
 	&__message{
 		textarea{
