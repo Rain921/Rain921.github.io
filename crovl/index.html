@@ -21,6 +21,9 @@
 		<link rel="icon" href="img/favicon/favicon-192.png" sizes="192x192" type="image/png">
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/jquery.fancybox.css">
+		<link rel="stylesheet" href="css/jquery.fancybox-thumbs.css">
+		
 		<!--fonts-->
 		<link rel="stylesheet" href="css/style.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
@@ -32,6 +35,7 @@
 		<![endif]-->
 	</head>
 	<body>
+		<!--header-->
 		<header>
 			<div class="container">
 				<div class="top row">
@@ -62,6 +66,8 @@
 				</div>
 			</div>
 		</header>
+		<!--header-end-->
+		<!--main-->
 		<main>
 			<div class="container">
 				<div class="order">
@@ -149,23 +155,33 @@
 				<div class="row">
 					<div class="grid">
 						<div class="grid__left">
-							<img src="img/1.jpg" alt="">
+							<a href="img/gallery/work1.png" class="hover fancybox-thumb" rel="fancybox-thumb">
+								<img src="img/1.jpg" alt="">
+							</a>
 						</div>
 						<div class="flex">
 							<div class="grid__right">
 								<div class="flex__container">
-									<img src="img/2.jpg" alt="">
+									<a href="img/gallery/work2.png" class="hover fancybox-thumb" rel="fancybox-thumb">
+										<img src="img/2.jpg" alt="">
+									</a>
 								</div>
 								<div class="flex__container">
-									<img src="img/3.jpg" alt="">
+									<a href="img/gallery/work3.png" class="hover fancybox-thumb" rel="fancybox-thumb">
+										<img src="img/3.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="grid__right">
 								<div class="flex__container">
-									<img src="img/4.jpg" alt="">
+									<a href="img/gallery/work4.png" class="hover fancybox-thumb" rel="fancybox-thumb">
+										<img src="img/4.jpg" alt="">
+									</a>
 								</div>
 								<div class="flex__container">
-									<img src="img/5.jpg" alt="">
+									<a href="img/gallery/work5.png" class="hover fancybox-thumb" rel="fancybox-thumb">
+										<img src="img/5.jpg" alt="">
+									</a>
 								</div>
 							</div>
 						</div>
@@ -410,10 +426,78 @@
 						<span><span class="price__taitel_red">*</span>Окончательная стоимость зависит от сложности конфигурации кровли и объёма работ</span>
 					</div>
 					<div class="price__left">
-						<img src="img/tabl.png" alt="">
+						<table class="tabl">
+							<tr>
+								<td  width="358" class="pdleft">Монтаж стропильной системы</td>
+								<td width="198" class="pdright">от 49,95 грн/м2</td>
+							</tr>
+							<tr bgcolor="#f5f5f5">
+								<td class="pdleft">Монтаж обрешетки</td>
+								<td class="pdright" >от 25,95 грн/м2</td>
+							</tr>
+							<tr>
+								<td class="pdleft">Монтаж контробрешенки</td>
+								<td class="pdright">от 4 грн/м2</td>
+							</tr>
+							<tr bgcolor="#f5f5f5">
+								<td class="pdleft">Монтаж металлочерепицы</td>
+								<td class="pdright">от 45,95 грн /м2</td>
+							</tr>
+							<tr>
+								<td class="pdleft">Монтаж профнастила</td>
+								<td class="pdright">от 45,95 грн /м2</td>
+							</tr>
+							<tr bgcolor="#f5f5f5">
+								<td class="pdleft">Монтаж битумной черепицы</td>
+								<td class="pdright">от 55,95 грн/м2</td>
+							</tr>
+							<tr>
+								<td class="pdleft">Укладка подкладочного ковра</td>
+								<td class="pdright">от 9 грн/м2</td>
+							</tr>
+							<tr bgcolor="#f5f5f5">
+								<td class="pdleft">Устройство основания из плит OSB-3</td>
+								<td class="pdright">от 20 грн/м2</td>
+							</tr>
+						</table>
 					</div>
 					<div class="price__right">
-						<img src="img/tabl2.png" alt="">
+						<table class="tabl">
+							<tr>
+								<td  width="358" class="pdleft">Монтаж желоба</td>
+								<td width="198" class="pdright">от 49,95 грн/м2</td>
+							</tr>
+							<tr bgcolor="#f5f5f5">
+								<td class="pdleft">Монтаж трубы</td>
+								<td class="pdright" >от 25,95 грн/м2</td>
+							</tr>
+							<tr>
+								<td class="pdleft">Монтаж соффита</td>
+								<td class="pdright">от 4 грн/м2</td>
+							</tr>
+							<tr bgcolor="#f5f5f5">
+								<td class="pdleft">Монтаж деревянной вагонки 
+								с покраской</td>
+								<td class="pdright">от 45,95 грн /м2</td>
+							</tr>
+							<tr>
+								<td class="pdleft">Монтаж утеплителя</td>
+								<td class="pdright">от 45,95 грн /м2</td>
+							</tr>
+							<tr bgcolor="#f5f5f5">
+								<td class="pdleft">Монтаж пароизоляции</td>
+								<td class="pdright">от 55,95 грн/м2</td>
+							</tr>
+							<tr>
+								<td class="pdleft">Монтаж гидроизоляции</td>
+								<td class="pdright">от 9 грн/м2</td>
+							</tr>
+							<tr bgcolor="#f5f5f5">
+								<td class="pdleft">Оброботка стропильной системы
+								антисептиком</td>
+								<td class="pdright">от 20 грн/м2</td>
+							</tr>
+						</table>
 					</div>
 					<div class="price__taitel">
 						<h3>Посмотрите на <span>выполненые нами работы:</span></h3>
@@ -422,23 +506,33 @@
 				<div class="row">
 					<div class="grid">
 						<div class="grid__left">
+							<a href="img/gallery/work2.1.png" class="hover fancybox-thumb" rel="fancybox-thumb">
 							<img src="img/grid2/grid1.jpg" alt="">
+							</a>
 						</div>
 						<div class="flex">
 							<div class="grid__right">
 								<div class="flex__container">
+									<a href="img/gallery/work2.2.png" class="hover fancybox-thumb" rel="fancybox-thumb">
 									<img src="img/grid2/grid2.jpg" alt="">
+									</a>
 								</div>
 								<div class="flex__container">
+									<a href="img/gallery/work2.3.png" class="hover fancybox-thumb" rel="fancybox-thumb">
 									<img src="img/grid2/grid3.jpg" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="grid__right">
 								<div class="flex__container">
+									<a href="img/gallery/work2.4.png" class="hover fancybox-thumb" rel="fancybox-thumb">
 									<img src="img/grid2/grid4.jpg" alt="">
+									</a>
 								</div>
 								<div class="flex__container">
+									<a href="img/gallery/work2.5.png" class="hover fancybox-thumb" rel="fancybox-thumb">
 									<img src="img/grid2/grid5.jpg" alt="">
+									</a>
 								</div>
 							</div>
 						</div>
@@ -462,106 +556,124 @@
 					</div>
 				</div>
 			</div>
-		
-		<div class="container">
-			<div class="about">
-				<span class="about__taitel">Кровля в Одессе</span>
-				<p class="about__text" id="black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor lorem metus, ut viverra magna pretium quis. Duis viverra lobortis elit ac lacinia. Aliquam dignissim nunc vel urna dignissim, ut porttitor lectus tempus. Aenean auctor suscipit metus nec pretium. Donec varius tempor facilisis. Nullam facilisis erat quis sapien gravida commodo. Vivamus non volutpat ante, a aliquet diam. Sed convallis arcu at ipsum convallis vestibulum non ut diam. Quisque scelerisque blandit leo, vel semper dolor dignissim in. Phasellus imperdiet dignissim turpis, vel eleifend nulla vulputate vitae. Sed sollicitudin molestie suscipit.</p>
-				<div id="block">
-					<p>Vestibulum vestibulum tellus eget ante pretium, at scelerisque turpis aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam rutrum tempor iaculis. Ut convallis scelerisque eros, eget scelerisque ante congue ac. Curabitur a mi ac ipsum euismod volutpat in consectetur metus. Cras aliquam urna in urna laoreet, a vehicula elit tincidunt. Aenean luctus tincidunt orci, quis consectetur lacus dictum a. Mauris risus ante, ultricies a porta non, commodo vitae sem.
-					Vivamus quis pharetra augue, ac gravida turpis. In malesuada, sem id dapibus ultricies, ante erat elementum lectus, eget pretium neque odio eu nibh. Etiam sed varius libero, at posuere ipsum. Duis enim quam, lacinia ac augue vel, pellentesque dictum metus. Integer interdum et neque vel congue. Mauris porttitor interdum dolor pulvinar vehicula. Phasellus sodales gravida finibus. Integer eu sapien sed eros tempus suscipit. Cras aliquam porttitor lacus nec porta. Integer eget lobortis magna, sollicitudin mattis orci. Duis fringilla nisi varius ex convallis varius. Cras nec nisi vitae justo fermentum faucibus.</p>
+			<div class="container">
+				<div class="about">
+					<span class="about__taitel">Кровля в Одессе</span>
+					<p class="about__text" id="black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor lorem metus, ut viverra magna pretium quis. Duis viverra lobortis elit ac lacinia. Aliquam dignissim nunc vel urna dignissim, ut porttitor lectus tempus. Aenean auctor suscipit metus nec pretium. Donec varius tempor facilisis. Nullam facilisis erat quis sapien gravida commodo. Vivamus non volutpat ante, a aliquet diam. Sed convallis arcu at ipsum convallis vestibulum non ut diam. Quisque scelerisque blandit leo, vel semper dolor dignissim in. Phasellus imperdiet dignissim turpis, vel eleifend nulla vulputate vitae. Sed sollicitudin molestie suscipit.</p>
+					<div id="block">
+						<p>Vestibulum vestibulum tellus eget ante pretium, at scelerisque turpis aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam rutrum tempor iaculis. Ut convallis scelerisque eros, eget scelerisque ante congue ac. Curabitur a mi ac ipsum euismod volutpat in consectetur metus. Cras aliquam urna in urna laoreet, a vehicula elit tincidunt. Aenean luctus tincidunt orci, quis consectetur lacus dictum a. Mauris risus ante, ultricies a porta non, commodo vitae sem.
+						Vivamus quis pharetra augue, ac gravida turpis. In malesuada, sem id dapibus ultricies, ante erat elementum lectus, eget pretium neque odio eu nibh. Etiam sed varius libero, at posuere ipsum. Duis enim quam, lacinia ac augue vel, pellentesque dictum metus. Integer interdum et neque vel congue. Mauris porttitor interdum dolor pulvinar vehicula. Phasellus sodales gravida finibus. Integer eu sapien sed eros tempus suscipit. Cras aliquam porttitor lacus nec porta. Integer eget lobortis magna, sollicitudin mattis orci. Duis fringilla nisi varius ex convallis varius. Cras nec nisi vitae justo fermentum faucibus.</p>
+					</div>
+					<div id="button-check">Читать подробнее</div>
 				</div>
-				<div id="button-check">Читать подробнее</div>
 			</div>
-		</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="places">
+						<div class="places__map col-lg-7">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1374.934071970207!2d30.714172758297423!3d46.431492994781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633648a1f3fe9%3A0xb5bb9e6097288455!2sAvada+Media!5e0!3m2!1sru!2sua!4v1520725404835"></iframe>
+						</div>
+						<div class="order  places__dispatch col-lg-5">
+							<form action="#" class="order__form places__dispatch_item col-lg-12">
+								<p class="order__form_taitel">Остались вопросы?</p>
+								<p class="order__form_text">Заполните форму ниже и наши менеджеры свяжутся с Вами!</p>
+								<input type="text" id="name__dispatch">
+								<label for="name__dispatch">Ваше имя<span>*</span></label>
+								<input type="tel" id="telefon__dispatch">
+								<label for="telefon__dispatch">Ваш телефон<span>*</span></label>
+								<input type="email" id="email__dispatch">
+								<label for="email__dispatch">Ваш e-mail<span>*</span></label>
+								<button>Отправить</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!--main-end-->
+		<!--footer-->
 		<div class="container-fluid">
 			<div class="row">
-				<div class="places">
-					<div class="places__map col-lg-7">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1374.934071970207!2d30.714172758297423!3d46.431492994781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633648a1f3fe9%3A0xb5bb9e6097288455!2sAvada+Media!5e0!3m2!1sru!2sua!4v1520725404835"></iframe>
+				<footer>
+					<div class="container">
+						<section>
+							<div class="telefone col-lg-4">
+								<p>Звоните прямо сейчас:</p>
+								<span>
+									+38 (048) 965 32 45
+									+38 (099) 256 75 32
+								</span>
+								<span>
+									+38 (048) 965 32 45
+									+38 (099) 256 75 32
+								</span>
+							</div>
+							<div class="logo col-lg-4">
+								<img src="img/logo-footer.png" alt="logo">
+							</div>
+							<div class="avada col-lg-4">
+								<span>
+									© 2016 Кровля профи.
+									Все права защищены.
+									Сайт разработан: AVADA-MEDIA
+								</span>
+							</div>
+						</section>
 					</div>
-					<div class="order  places__dispatch col-lg-5">
-						<form action="#" class="order__form places__dispatch_item col-lg-12">
-							<p class="order__form_taitel">Остались вопросы?</p>
-							<p class="order__form_text">Заполните форму ниже и наши менеджеры свяжутся с Вами!</p>
-							<input type="text" id="name__dispatch">
-							<label for="name__dispatch">Ваше имя<span>*</span></label>
-							<input type="tel" id="telefon__dispatch">
-							<label for="telefon__dispatch">Ваш телефон<span>*</span></label>
-							<input type="email" id="email__dispatch">
-							<label for="email__dispatch">Ваш e-mail<span>*</span></label>
-							<button>Отправить</button>
-						</form>
-					</div>
-				</div>
+				</footer>
 			</div>
-		</div>
-	</main>
-	<div class="container-fluid">
-		<div class="row">
-			<footer>
-				<div class="container">
-				<section>
-						<div class="telefone col-lg-4">
-							<p>Звоните прямо сейчас:</p>
-							<span>
-								+38 (048) 965 32 45
-								+38 (099) 256 75 32
-							</span>
-							<span>
-								+38 (048) 965 32 45
-								+38 (099) 256 75 32
-							</span>
-						</div>
-						<div class="logo col-lg-4">
-							<img src="img/logo-footer.png" alt="logo">
-						</div>
-						<div class="avada col-lg-4">
-							<span>
-								© 2016 Кровля профи.
-								Все права защищены.
-								Сайт разработан: AVADA-MEDIA
-							</span>
-						</div>
-				</section>
-			</div>
-			</footer>
-		</div>
-	</div>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script>
-	$(function() {
-	$('#button-check').on('click', function(e) {
-	$('#block').slideToggle(function() {
-	console.log($(e.target).is(':visible'));
-	$(e.target).text($(this).is(':visible')? 'скрыть': 'Читать подробнее');
-	});
-	});
-	});
-	$('#button-check').on("click", function() {
-	$('#black').toggleClass('color-norm');
-	})
-	$(document).ready(function(){
-	
-	$(window).scroll(function(){
-	if ($(this).scrollTop() > 100) {
-	$('.scrollup').fadeIn();
-	} else {
-	$('.scrollup').fadeOut();
-	}
-	});
-	
-	$('.scrollup').click(function(){
-	$("html, body").animate({ scrollTop: 0 }, 2000);
-	return false;
-	});
-	
-	});
-	
-	
-	</script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-</body>
-</html>
+			<!--footer-end-->
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/jquery.fancybox.pack.js"></script>
+			<script src="js/jquery.fancybox-thumbs.js"></script>
+			<script>
+			$(function() {
+			$('#button-check').on('click', function(e) {
+			$('#block').slideToggle(function() {
+			console.log($(e.target).is(':visible'));
+			$(e.target).text($(this).is(':visible')? 'скрыть': 'Читать подробнее');
+			});
+			});
+			});
+			$('#button-check').on("click", function() {
+			$('#black').toggleClass('color-norm');
+			})
+			$(document).ready(function(){
+			
+			$(window).scroll(function(){
+			if ($(this).scrollTop() > 100) {
+			$('.scrollup').fadeIn();
+			} else {
+			$('.scrollup').fadeOut();
+			}
+			});
+			
+			$('.scrollup').click(function(){
+			$("html, body").animate({ scrollTop: 0 }, 2000);
+			return false;
+			});
+			
+			});
+			$(document).ready(function() {
+			$(".fancybox-thumb").fancybox({
+					prevEffect	: 'fade',
+					nextEffect	: 'fade',
+					helpers	: {
+						title	: {
+						type: 'outside'
+					},
+						thumbs	: {
+							width	: 100,
+							height	: 50
+					}
+				}
+			});
+			});
+			
+			
+			</script>
+			<!-- Include all compiled plugins (below), or include individual files as needed -->
+		</body>
+	</html>
