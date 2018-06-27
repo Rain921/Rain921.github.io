@@ -3,7 +3,7 @@
 <head>
   <title>test</title>
   <meta name="description" content="A description of the page">
-  <meta charset="utf-8" />
+  <meta charset="utf-8"/>
   <meta name="theme-color" content="#0122d3">
   <meta name="apple-mobile-web-app-status-bar-style" content="#0122d3">
   <meta http-equiv="x-ua-compatible" content="ie=edge">

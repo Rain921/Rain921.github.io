@@ -47,7 +47,6 @@
 		padding: 0% 46px 0% 46px;
 		height: 361px;
 		position: relative;
-		overflow: hidden;
 		span{
 			.xs(font-size, 18px);
 			color: #010101;
@@ -63,6 +62,7 @@
 			line-height: 28px;
 			font-size: 18px;
 			overflow: hidden;
+			
 
 		}
 		&_left{
@@ -224,20 +224,22 @@
 }
 .form-block{
 	@media (max-width: 1581px) { 
-        	max-width: 1340px;
-						
+        	max-width: 1340px;			
         }
-	background-position: center 0;
+        @media (max-width: 1581px) { 
+        background-size:cover;		
+        }
+    .md(padding, 15px);
+    .md(background-position, 10%);
+    .md(background-size, cover);
 	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top: 148px;
-	padding-bottom: 148px;
+	background-position: 50%;
+    background-size: contain;
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	min-height: 284px;
 	max-width: 70%;
-	padding: 15px;
 	margin: auto;
 	&__text{
 		align-self: flex-end;
