@@ -1,6 +1,6 @@
 <?php
 
-$recepient = "v.roman@nextpage.com.ua";
+$recepient = "rcing59@ukr.net";
 $siteName = "Ajax-форма";
 
 $name = trim($_POST["name"]);
