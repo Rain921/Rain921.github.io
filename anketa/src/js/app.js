@@ -66,11 +66,14 @@ function closeAllSelect(elmnt) {
 document.addEventListener("click", closeAllSelect);
 //up
 $(document).ready(function(){
-    $('[data-href^="#"]').on('click', function(e){
-        e.preventDefault();
-        var t = 1000;
-        var d = $(this).attr('data-href') ? $(this).attr('data-href') : $(this).attr('href');
-        $('html,body').stop().animate({ scrollTop: $(d).offset().top - 10 }, t);
+    $(".header ul li").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 800);
     });
+
 });
+
+
 
