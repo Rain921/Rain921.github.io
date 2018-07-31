@@ -1,0 +1,293 @@
+//
+.form-block{
+  position:relative;
+  &__info{
+     padding-bottom:70px;
+     padding-top:60px;
+     margin-right:30px;
+      @include md-block(){
+       margin-right:0px;
+      }
+    text-align:center;
+    h2{
+      font-size: 35px;
+      text-transform: uppercase;
+      color: #232323;
+      letter-spacing: 1.4px;
+      @include lato_bold();
+      span{
+        color: #009dda;
+
+      }
+
+    }
+    p{
+      color: #999999;
+      font-size: 14px;
+       @include lato_regular();
+       letter-spacing: 0.56px;
+       line-height: 24px;
+       max-width: 694px;
+       margin:10px  auto;
+    }
+
+  }
+
+}
+//карта
+.map{
+  position:relative;
+ width:100%;
+   height: 634px;
+div{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+}
+.gmnoprint{
+   @media  screen and (max-width: 1100px) {
+display:none;
+}
+
+}
+//форма
+.form{
+ 
+  @media  screen and (max-width: 1100px) {
+width: 100%;
+}
+
+
+  display:flex;
+  position:absolute;
+  width: 98%;
+  height:100%;
+  bottom:0%;
+  justify-content: center;
+
+   @include lato_regular();
+ &__overlay{
+  @include md-block(){
+       min-height: 435px;
+      }
+@include md-block(){
+      align-items: flex-start; 
+      flex-wrap:wrap;
+}
+ @include xs-block(){
+  padding-bottom:41px;
+  bottom: 6%;
+    
+}
+   background-color: rgba(0, 0, 0, 0.7);
+  max-width: 945px;
+  display:flex;
+  min-height: 435px;
+  bottom:11%;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  form{
+      margin-right:90px;
+      @include md-block(){
+        text-align:center;
+      width:100%;
+      margin:0;
+      padding-top:41px;
+}
+  @media  screen and (max-width: 505px) {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+      
+   
+  }
+  //инпут формы
+  .input__form{
+      @media  screen and (max-width: 506px) {
+  display:block;
+}
+    display:inline-block;
+     position:relative;
+    &:first-child{
+       @media  screen and (max-width: 506px) {
+   margin-right:0;
+}
+      margin-right:8px;
+
+    }
+    input{
+       @media  screen and (max-width: 506px) {
+  width:100%;
+  min-width:none;
+}
+      position:relative;
+       @include lato_regular();
+      background-color: rgba(0, 0, 0, 0.0);
+      border: 1px solid #ffffff;
+      min-width: 239px;
+      height: 50px;
+      font-size: 16px;
+      padding-left:20px;
+      box-sizing:border-box;
+      color: #fff;
+
+    }
+    //инпут ошибка
+    .error{
+      color:#e5454c;
+    }
+    #name-error{
+      position:absolute;
+      left:0;
+      top:-60%;
+
+    }
+    #email-error{
+      position:absolute;
+      left:0;
+      top:-60%;
+
+    }
+  }
+  textarea{
+    @include md-block(){
+      margin: 10px auto;
+}
+    display:block;
+    resize: none;
+   max-width: 490px;
+    box-sizing:border-box;
+    margin-top:10px;
+   width:100%;
+   padding-left:20px;
+   padding-top:10px;
+   color: #fff;
+    background-color: rgba(0, 0, 0, 0.0);
+   height: 144px;
+    @include lato_regular();
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .checkbox{
+    @media  screen and (max-width: 505px) {
+  text-align: center;
+}
+    display:inline-block;
+    max-width: 362px;
+    width: 100%;
+    color: #b7b7b7;
+    text-align: left;
+    label{
+      margin-left:3px;
+    }
+  }
+
+  }
+  //инпут кнопка
+  &__btn{
+    display:inline-block;
+    padding-top:15px;
+    button{
+    background-color: #ffff00;
+    border:none;
+    padding:15px 45px 15px 45px;
+    cursor:pointer;
+     @include lato_regular();
+     color: #373737;
+     font-size: 16px;
+     &:hover{
+      opacity:.9;
+
+     }
+    }
+  }
+   //блок инфо формы
+  &__info{
+     @include md-block(){
+      width:100%;
+     max-width:none;
+     display:flex;
+     margin:0;
+    text-align: center;
+}
+     p{
+        @include md-block(){
+   flex-grow:1;
+    width:100%;
+}
+ @include xs-block(){
+   width:100%;
+}
+      margin:0;
+}
+
+ @include xs-block(){
+  padding-top:15px;
+   flex-wrap:wrap;
+}
+    max-width: 174px;
+     align-self: flex-start;
+      margin-right:55px;
+      margin-top:75px;
+
+    &--phone{
+       @include md-block(){
+   margin:0;
+   flex-grow:1;
+}
+  @include md-block(){
+  width:100%;
+}
+ @include xs-block(){
+  padding-top:10px;
+}
+  margin-top:25px;
+      p{
+        
+        margin:0;
+        a{
+          color: #f3f3f3;
+
+        }
+      }
+
+ }
+    &--email{
+       @include md-block(){
+   margin:0;
+   flex-grow:1;
+    width:100%;
+}
+@include xs-block(){
+  padding-top:10px;
+}
+      margin-top:25px;
+      p{
+
+         margin:0;
+         a{
+          color: #f3f3f3;
+
+         }
+
+      }
+    }
+    p{
+      font-size: 16px;
+      color: #f3f3f3;
+
+    }
+//цвет инпутов
+  ::placeholder{
+    color: #b7b7b7;
+
+  }
+}
+}
+
+
+
+
+
