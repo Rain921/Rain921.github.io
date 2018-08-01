@@ -82,17 +82,14 @@ $('.slider-review').not('.slick-initialized').slick({
 });
  
 
- //menu mobile
-      $(function() {
-            $('.navbar-toggle, .navmobile').click(function() {
 
-               $('.navbar-toggle,html').toggleClass('navbar-on, overflow');
-                $('.nav-open').fadeToggle();
-                $('.nav-open').removeClass('nav-hide');
-                $('.hamburger').toggleClass('is-active');
-          });
-     
-          });
+      //menu mobile
+
+$('.navbar-toggle').click(function() {
+  $('.navmobile .nav-open').fadeToggle();
+  $('.navbar-toggle,html').toggleClass('navbar-on, overflow');
+  $('.hamburger').toggleClass('is-active');
+  });
 
 
 //validation
