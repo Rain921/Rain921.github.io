@@ -50,10 +50,37 @@ $('.slider-review').not('.slick-initialized').slick({
           
 });
 
+   
 
 
-
-
+   
+   $(document).ready(function(){
+    $('#time').timepicker({});
+    $.timepicker.regional['ru'] = {
+        timeOnlyTitle: 'Выберите время',
+        timeText: 'Время',
+        hourText: 'Часы',
+        minuteText: 'Мин.',
+        secondText: 'Секунды',
+        millisecText: 'Миллисекунды',
+        timezoneText: 'Часовой пояс',
+        currentText: 'Сейчас',
+        closeText: 'Закрыть',
+        timeFormat: 'HH:mm',
+        amNames: ['AM', 'A'],
+        pmNames: ['PM', 'P'],
+        isRTL: false
+    };
+    $.timepicker.setDefaults($.timepicker.regional['ru']);
+    $('#rest_example_1').datetimepicker({
+        altField: "#alt_example_1_alt",
+        hourMin: (new Date()).getHours() < 14 ? 9 : 14,
+        hourMax: 17,
+        maxDate: 1,
+        minDate: 1
+    });
+});
+ 
 
  //menu mobile
       $(function() {
@@ -125,10 +152,7 @@ $('.slider-review').not('.slick-initialized').slick({
  $(function($){
   $('[name="phone"]').mask("+38(999) 999-9999");
 });
-$('.form__btn button').click(function(){
-         $(".form__input label").css("display", "none");
-       }); 
- 
+
 
 
  
