@@ -63,7 +63,7 @@ $('.slider-review').not('.slick-initialized').slick({
           });
      
           });
-    
+
 
 //validation
     var locationURL = window.location.search;
@@ -119,19 +119,20 @@ $('.slider-review').not('.slick-initialized').slick({
 
   });
 
- 
-  $('#datepicker').datepicker([options])
-// Access instance of plugin
-$('#datepicker').data('datepicker')
  $(function($){
   $('[name="phone"]').mask("+38(999) 999-9999");
 });
-
-
 $('.form__btn button').click(function(){
          $(".form__input label").css("display", "none");
        }); 
-
  
+
+
+ $(document).ready(function() {
+               $('#datepicker').datepicker([options])
+// Access instance of plugin
+$('#datepicker').data('datepicker')
+});
+
 
    
