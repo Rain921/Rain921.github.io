@@ -47,9 +47,12 @@ $('.slider-review').not('.slick-initialized').slick({
 
  
  
-
-
+          
 });
+
+
+
+
 
 
  //menu mobile
@@ -128,11 +131,6 @@ $('.form__btn button').click(function(){
  
 
 
- $(document).ready(function() {
-               $('#datepicker').datepicker([options])
-// Access instance of plugin
-$('#datepicker').data('datepicker')
-});
-
+ 
 
    
