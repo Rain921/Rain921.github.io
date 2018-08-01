@@ -8,10 +8,10 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#0122d3">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <!--style-->
     <link rel="stylesheet" href="dist/css/app.min.css">
     <link rel="stylesheet" href="dist/css/hamburgers.min.css">
+    <link rel="stylesheet" href="dist/css/datepicker.min.css">
     <!--fonts-->
     <link rel="stylesheet" href="dist/fonts/fonts.css">
     <link rel="stylesheet" href="dist/css/icon-font.css">
@@ -245,7 +245,8 @@
                     <div class="slider-review__item">
                       <div class="slider-review__text">
                         <span>
-                          Прекрасна клініка. Завжди боявся стоматолога. Та з вашою клінікою відкрив</span>
+                          Прекрасна клініка. Завжди боявся стоматолога. Та з вашою клінікою відкрив для себе сучасну стоматологію.
+                          <span>
                           </div>
                           <p>Олексій Антонович</p>
                         </div>
@@ -260,25 +261,21 @@
                     <div class="form-block wrapper">
                       <form class="form" action="post">
                         <div class="form__input">
-                          <input id="name" type="name" name="name">
-                          <label for="name"><img src="dist/img/footer/Human_icon.png" alt="icon">Ваше имя<span>*</span></label>
+                          <input id="name" type="name" name="name" placeholder="Ваше имя*">
+                      
                         </div>
                         <div class="form__input">
-                          <input id="phone" type="text" name="phone">
-                          <label for="phone"><img src="dist/img/footer/Phone_form.png" alt="icon">Номер телефона<span>*</span></label>
+                          <input id="phone" type="text" name="phone" placeholder="Номер телефона*">
+                         
                         </div>
                         <div class="form__input form__data">
-                          <input id="data" type="date" name="trip">
-                          <label for="data">
-                            <img src="dist/img/footer/Calendar_icon.png" alt="icon">
-                            Дата посещения
-                            <span>*</span>
-                          </label>
+                          <input id="datepicker" class="datepicker-here" type="text" name="trip" placeholder="Дата посещения*">
+                         
                         </div>
                         <div class="form__input form__data">
                           <input type="time" id="time" name="time"
-                          min="9:00" max="18:00">
-                          <label for="time"><img src="dist/img/footer/Clock_icon.png" alt="icon">Время посещения<span>*</span></label>
+                          min="9:00" max="18:00" placeholder="Время посещения*">
+                    
                         </div>
                         <div class="form__textarea">
                           <textarea name="text" id="text" placeholder="Здесь можно указать причину обращения или ваши пожелания, если таковые имеются..."></textarea>

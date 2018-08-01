@@ -28,6 +28,9 @@ const Config = {
     'node_modules/aos/dist/aos.js',
     'node_modules/jquery-validation/dist/jquery.validate.min.js',
     'node_modules/jquery.maskedinput/src/jquery.maskedinput.js',
+    'node_modules/air-datepicker/dist/js/datepicker.min.js',
+
+    
     // scripts
     'src/js/setting.js',
     'src/js/app.js'

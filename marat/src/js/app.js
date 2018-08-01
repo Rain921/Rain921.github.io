@@ -45,10 +45,13 @@ $('.slider-review').not('.slick-initialized').slick({
   
 });
 
-
+ 
+ 
 
 
 });
+
+
  //menu mobile
       $(function() {
             $('.navbar-toggle, .navmobile').click(function() {
@@ -58,7 +61,9 @@ $('.slider-review').not('.slick-initialized').slick({
                 $('.nav-open').removeClass('nav-hide');
                 $('.hamburger').toggleClass('is-active');
           });
-           });
+     
+          });
+    
 
 //validation
     var locationURL = window.location.search;
@@ -77,6 +82,7 @@ $('.slider-review').not('.slick-initialized').slick({
     var validationTime = "Выберете время";
   }
 
+ 
  $('form').validate({
     rules: {
       name: {
@@ -112,7 +118,11 @@ $('.slider-review').not('.slick-initialized').slick({
     }
 
   });
+
  
+  $('#datepicker').datepicker([options])
+// Access instance of plugin
+$('#datepicker').data('datepicker')
  $(function($){
   $('[name="phone"]').mask("+38(999) 999-9999");
 });
@@ -121,9 +131,6 @@ $('.slider-review').not('.slick-initialized').slick({
 $('.form__btn button').click(function(){
          $(".form__input label").css("display", "none");
        }); 
-$('form input[type="name"], form input[type="text"],form input[type="date"], form textarea').val('');
- 
- 
 
  
 
