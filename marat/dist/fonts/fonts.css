@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('TimesNewRomanPSMT.woff2') format('woff2'),
+        url('TimesNewRomanPSMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('PTSans-Bold.woff2') format('woff2'),
+        url('PTSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('TimesNewRomanPS-BoldMT.woff2') format('woff2'),
+        url('TimesNewRomanPS-BoldMT.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('PTSans-Regular.woff2') format('woff2'),
+        url('PTSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
