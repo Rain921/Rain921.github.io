@@ -1,0 +1,12 @@
+@mixin roboto_regular () {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+}
+@mixin Roboto_light (){
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+}
+@mixin Roboto_thin (){
+font-family: 'Roboto', sans-serif;
+font-weight: 100;
+}
