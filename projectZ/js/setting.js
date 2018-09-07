@@ -8,6 +8,6 @@ $(function() {
             $('.header-top').css('top', event.pageY);            
         }); */       
     })/*.mouseout(function() {
-        $('.header-top').hide();
+        $('.header-bottom').css('margin-top','-55px');
     });*/
 });
