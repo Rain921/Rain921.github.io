@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans-Light.eot');
+	src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Open Sans Light.woff') format('woff'), url('../fonts/Open Sans Light.ttf') format('truetype'), url('../fonts/Open Sans Light.svg#Open Sans Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-FFFD;
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans-Bold.eot');
+	src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Open Sans Bold.woff') format('woff'), url('../fonts/Open Sans Bold.ttf') format('truetype'), url('../fonts/Open Sans Bold.svg#Open Sans Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-FFFD;
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../fonts/Open-Sans.eot');
+	src: url('../fonts/Open-Sans.eot?#iefix') format('embedded-opentype'), url('../fonts/Open Sans.woff') format('woff'), url('../fonts/Open Sans.ttf') format('truetype'), url('../fonts/Open Sans.svg#Open Sans') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-FFFD;
+}
+@font-face {
+    font-family: 'ArialMT';
+    src: url('../fonts/ArialMT.eot');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArialMT';
+    src: url('../fonts/Arial-BoldMT.eot');
+    font-weight: bold;
+    font-style: normal;
+}
+/*Иконочный шрифт*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?n4rjat');
+  src:  url('../fonts/icomoon.eot?n4rjat#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?n4rjat') format('truetype'),
+    url('../fonts/icomoon.woff?n4rjat') format('woff'),
+    url('../fonts/icomoon.svg?n4rjat#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-stars:before {
+  content: "\e900";
+  color: #ffd36b;
+  font-size:15px;
+}
+.icon-stars-white:before {
+  content: "\e901";
+}
+
+/*Иконочный шрифт-конец*/
