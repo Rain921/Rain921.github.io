@@ -455,6 +455,14 @@ h3 {
 @media screen and (max-width: 1200px) {}
 
 @media screen and (max-width: 936px) {
+    .product-title{
+        text-align:center;
+        margin-left:0;
+        h3{
+
+        }
+    }
+
     .product-item {
         &:nth-child(n+3) {
             margin-top: 20px;
@@ -534,10 +542,9 @@ h3 {
     }
 }
 @media screen and (max-width: 480px) {
-	.flex-content{
-		text-align:center;
-
-	}
+    .flex-content{
+        text-align:center;
+    }
     .product-slider {
         .product-item {
             margin-left: 20px;
@@ -546,12 +553,12 @@ h3 {
     }
      .arrows-slider__L {
     bottom: -2%;
-    left: 0%;
+    left: 4%;
 }
 
 .arrows-slider__R {
     bottom: -2%;
-    right: 0%;
+    right: 4%;
   
 }
 }
