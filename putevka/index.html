@@ -1,0 +1,1380 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Путевка</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<style>
+		.loaded main, .loaded header, .loaded footer{
+		     	visibility:hidden;
+			}
+		.icon-load{
+			background:url(img/loader.gif) no-repeat left top;
+			width:40px;
+			height:40px;
+			position:fixed;
+			left:50%;
+			top:50%;
+			margin-left:-20px;
+			margin-left:-20px;
+			display:none;
+		}
+		.loaded .icon-load{
+			display:block;
+		}
+	</style>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-select.css">
+	<link rel="stylesheet" href="css/datepicker.min.css">
+	<link rel="stylesheet" href="css/datepicker.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	
+<body class="loaded">
+	
+	<header>
+		<div class="container container-fluid header-top">
+			<div class="row ">
+				<div class="col-12 col-md-4 contacts">
+					<div class="contact_header">
+						<a href="tel:88003334199"><span></span> 8-800-333-41-99</a>
+						<a href="tel:+74997030120">+7 499 703-01-20</a>
+						<a href="">Контакты и офисы</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-sm-12">
+					<div class="logo">
+                        <img src="img/logo.png" alt="">
+						<img src="img/logo_mob.png" alt="">
+					</div>
+				</div>
+				<!-- <div class="col-12 col-md-4"> -->
+                    <div class="col-lg-4 col-md-8 col-sm-8 search">
+                    
+					<div class="search-header">
+
+						<form class="form-inline search_header">
+							<input class="form-control js-search" id="search" type="search" placeholder="Поиск по названию" aria-label="Search">
+							<button class="btn btn-outline-success" type="submit"></button>
+						</form>
+                        <div id="wrapForListHotel2" class="wrapForListHotel2">
+                            <div class="hotels__list">
+                                <div class="hotels__item"> 
+                                    <div class="hotels__item_name">
+                                        Аква<strong>мар</strong>ин 3
+                                        <span class="star-yellow">Звезд</span>
+                                        
+                                         <span>4.92</span>
+                                     </div>
+                                     <span class="grey">Созополь</span>
+                                </div>
+
+                                <div class="hotels__item">
+                                    <div class="hotels__item_name">
+                                        Аква<strong>мар</strong>ин 3
+                                        <span class="star-yellow">Звезд</span>
+                                        
+                                         <span>4.92</span>
+                                     </div>
+                                     <span class="grey">Созополь</span>
+                                </div>
+
+                                <div class="hotels__item">
+                                    <div class="hotels__item_name">
+                                        Аква<strong>мар</strong>ин 3
+                                        <span class="star-yellow">Звезд</span>
+                                        
+                                         <span>4.92</span>
+                                     </div>
+                                     <span class="grey">Созополь</span>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+						<a href="#" class="status-order">Статус заявки</a>
+					</div>
+				</div>
+			</div>
+
+        </div>
+
+        <div class="mobile-nav-wrapper">
+
+            <div class="container container-fluid">
+                <div class="mobile-nav ">
+                    <a href="tel:88003334199">8-800-333-41-99 <span></span></a>
+                    <a href="tel:+74997030120">+7 499 703-01-20</a>
+                    <a href="">Контакты и офисы</a>
+                    <div class="burger js-burger">
+                        <div class="top-line line"></div>
+                        <div class="middle-line line"></div>
+                        <div class="bottom-line line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container container-fluid nav-pane js-nav">
+			<ul class="nav nav-pills nav-fill">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">Санатории и пансионаты</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Авиабилеты</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">О компании</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Агенствам</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Как забронировать</a>
+				</li>
+			</ul>
+			<div class="search_mob">
+
+				<form class="form-inline search_header">
+					<input class="form-control js-search" id="search" type="search" placeholder="Поиск по названию" aria-label="Search">
+					<button class="btn btn-outline-success" type="submit"></button>
+				</form>
+                <div id="wrapForListHotel2" class="wrapForListHotel2">
+                    <div class="hotels__list">
+                        <div class="hotels__item">
+                            <div class="hotels__item_name">
+                                Аква<strong>мар</strong>ин 3
+                                <span class="star-yellow">Звезд</span>
+                                
+                                 <span>4.92</span>
+                             </div>
+                             <span class="grey">Созополь</span>
+                        </div>
+
+                        <div class="hotels__item">
+                            <div class="hotels__item_name">
+                                Аква<strong>мар</strong>ин 3
+                                <span class="star-yellow">Звезд</span>
+                                
+                                 <span>4.92</span>
+                             </div>
+                             <span class="grey">Созополь</span>
+                        </div>
+
+                        <div class="hotels__item">
+                            <div class="hotels__item_name">
+                                Аква<strong>мар</strong>ин 3
+                                <span class="star-yellow">Звезд</span>
+                                
+                                 <span>4.92</span>
+                             </div>
+                             <span class="grey">Созополь</span>
+                        </div>
+
+                        
+                    </div>
+                </div>
+				<a href="#" class="status-order">Статус заявки</a>
+			</div>
+
+            <div class="cross js-cross">
+                <div class="top-line line"></div>
+                <div class="bottom-line line"></div>
+            </div>
+    		<div class="overlay js-overlay"></div>
+        </div>
+        <div class="container container-fluid main-block">
+			<h1>Путевка.ком - крупнейшая база санаториев, пансионатов и отелей</h1>
+			<div class="tab_links">
+				<a href="">Авиабилеты</a>
+				<a class="tab_links_active" href="">Туры</a>
+			</div>
+			<form action="send.php" class="form_tours">
+				<div class="form-group">
+					<label for="basic" class="control-label">Регион:</label>
+
+					<select id="basic" class="selectpicker">
+
+						<option>Крым</option>
+						<option>Сочи</option>
+
+						<option selected>Москва</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="basic_1" class="control-label">Курорт:</label>
+					<select id="basic_1" class="js-multiselect" multiple="multiple">
+						<option selected="selected">Анапа</option>
+						<option selected="selected">Сочи</option>
+						<option selected="selected">Краснодар</option>
+						<option selected="selected">Вологда</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="basic" class="control-label">Отдыхающие:</label>
+					<div class="filter__item filter__item--small">
+						<div class="dropdown filter__select">
+							<button class="dropdown-toggle caret btn btn-light" data-toggle="dropdown"><span class="filter-people js-people">2 взрослых</span></button>
+							<ul class="dropdown-menu text-center">
+								<li class="input-with-plus">
+									<a href="#" class="minus" data-min="1">-</a>									
+									<input type="text" class="input-with-plus__input" id="search-adult" value="2 взрослых" disabled>
+									<a href="#" class="plus" data-max="4">+</a>
+								</li>
+								<li class="add-child">
+									<a href="#" class="button add-child__button button-primary filter__btn">Добавить ребенка</a>
+									<select name="add_child"  class="add-child__select">
+										<option disabled selected>Выберите возраст ребенка</option>
+										<option value="0 лет">0 лет</option>
+										<option value="1 год">1 год</option>
+										<option value="2 года">2 года</option>
+										<option value="3 года">3 года</option>
+										<option value="4 года">4 года</option>
+										<option value="5 лет">5 лет</option>
+										<option value="6 лет">6 лет</option>
+										<option value="7 лет">7 лет</option>
+										<option value="8 лет">8 лет</option>
+										<option value="9 лет">9 лет</option>
+										<option value="10 лет">10 лет</option>
+										<option value="11 лет">11 лет</option>
+										<option value="12 лет">12 лет</option>
+										<option value="13 лет">13 лет</option>
+										<option value="14 лет">14 лет</option>
+										<option value="15 лет">15 лет</option>
+										<option value="16 лет">16 лет</option>
+									</select>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="form-group dateFrom">
+					<label for="basic" class="control-label">Дата заезда:</label>
+					<input autocomplete="off" type="text" id="dateFrom" readonly="readonly" class="datepicker-here2" value="30.10.2018">
+				</div>
+				<div class="form-group">
+					<label for="search-night" class="control-label">Количество дней:</label>
+					<select class="selectpicker" data-style="caret" id="search-night">
+                            <option value="4"  data-night="4 ночи">4 ночи</option>
+                            <option value="5"  data-night="5 ночей">5 ночей</option>
+                            <option value="6"  data-night="6 ночей">6 ночей</option>
+                            <option value="7" selected data-night="7 ночей">7 ночей</option>
+                            <option value="8"  data-night="8 ночей">8 ночей</option>
+                            <option value="9"  data-night="9 ночей">9 ночей</option>
+                            <option value="10"  data-night="10 ночей">10 ночей</option>
+                            <option value="11"  data-night="11 ночей">11 ночей</option>
+                            <option value="12"  data-night="12 ночей">12 ночей</option>
+                            <option value="13"  data-night="13 ночей">13 ночей</option>
+                            <option value="14"  data-night="14 ночей">14 ночей</option>
+                            <option value="15"  data-night="15 ночей">15 ночей</option>
+                            <option value="16"  data-night="16 ночей">16 ночей</option>
+                            <option value="17"  data-night="17 ночей">17 ночей</option>
+                            <option value="18"  data-night="18 ночей">18 ночей</option>
+                            <option value="19"  data-night="19 ночей">19 ночей</option>
+                            <option value="20"  data-night="20 ночей">20 ночей</option>
+                            <option value="21"  data-night="21 ночь">21 ночь</option>
+                        </select>
+
+				</div>
+
+                <div class="form-group hidden form-group-profile">
+                    <label for="search-night_1" class="control-label">Профиль:</label>
+                    <select class="selectpicker" data-style="caret" id="search-night_1">
+                            <option value="4"  data-night="любой">любой</option>
+                            <option value="5"  data-night="не любой">не любой</option>
+                            <option value="6"  data-night="другой">другой</option>
+                            
+                        </select>
+
+                </div>
+				<button class="button btn_tours">Получить варианты</button>
+			</form>
+            </div>
+		
+		<a class="header_bottom_link" href=""><span>Нужна консультация специалиста?</span></a>
+	</header>
+
+	<main>
+		<section class="premial_block">
+			<div class="container container-fluid">
+				<div class="row owl-carousel owl-carousel3 js-premial">
+					<div class="col-12 col-md-12 col-lg-4">
+                        <div class="premial_block__img">
+                            <img src="img/icons/premial-block-1.svg" alt="">
+                        </div>
+						
+						<div class="premial_block__header">Профессиональные консультации</div>
+						<div class="premial_block__text">Более 70 экспертов по санаторно-курортному отдыху и лечению готовы подобрать для Вас лучший вариант. </div>
+						<div class="premial_block__subheader">Онлайн-бронирование</div>
+						<div class="orange-text"><b>На связи 24/7</b></div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-4">
+                        <div class="premial_block__img">
+                           <img src="img/icons/premial-block-2.svg" alt=""> 
+                        </div>
+						
+						<div class="premial_block__header">Оплата и документы</div>
+						<div class="premial_block__text">Теперь не нужно идти в турагентство. Оплачивайте путевку картой на сайте или по счету в банке. Все документы Вы получаете по электронной почте, в мессенджер или заказным письмом</div>
+						<div class="premial_block__subheader">Всего забронировано:</div>
+						<div class="orange-text"><b>3720853 туров</b></div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-4">
+                        <div class="premial_block__img">
+                           <img src="img/icons/premial-block-3.svg" alt=""> 
+                        </div>
+						
+						<div class="premial_block__header">Официальные цены и скидки</div>
+						<div class="premial_block__text">Клиенты Putevka.com получают доступ к уникальной базе горящих путевок. 12 000 санаториев и пансионатов выставляюют лучшие акутуальные цены на нашем сайте.</div>
+						<div class="premial_block__subheader">Сейчас на отдыхе:</div>
+						<div class="orange-text"><b>1 128 туристов</b></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="country">
+			<div class="container container-fluid">
+				<h3>Страны и курорты</h3>
+
+
+				<!-- owl carusel -->
+
+				<div class="mobile_curort">
+				    <div class="row mobile_curort-inner owl-carousel js-mob-curort">
+				        
+				        <div class="col">
+
+							<div class="countru_box krum js-equal-mob">
+								<h4>Южный берег Крыма</h4>
+								<div class="row countru_box_list">
+    								<ul class="col-6">
+    									<li><a href="">Алупка</a></li>
+    									<li><a href="">Мисхор</a></li>
+    									<li><a href="">Большая Ялта</a></li>
+    									<li><a href="">Ореанда</a></li>
+    									<li><a href="">Большая Алушта</a></li>
+    									<li><a href="">Симеиз</a></li>
+    									<li><a href="">Гаспра</a></li>
+    									<li><a href="">Малореченское</a></li>
+    								</ul>
+    								<ul class="col-6">
+    									<li><a href="">Гурзуф</a></li>
+    									<li><a href="">Партенит</a></li>
+    									<li><a href="">Кореиз</a></li>
+    									<li><a href="">Семидворье</a></li>
+    									<li><a href="">Курпаты</a></li>
+    									<li><a href="">Утес</a></li>
+    									<li><a href="">Ливадия</a></li>
+    									<li><a href="">Форос</a></li>
+    								</ul>
+								</div>
+							    <a href="" class="view_all">Смотреть все</a>
+							</div>
+						</div>
+
+						 <div class="col">
+
+							<div class="countru_box krum krum_2 js-equal-mob">
+								<h4>Западный крым</h4>
+								<div class="row countru_box_list">
+    								<ul class="col">
+    									<li><a href="">Бухта Ласпи</a></li>
+    									<li><a href="">Евпатория</a></li>
+    									<li><a href="">Черноморское</a></li>
+    									<li><a href="">Николаевка</a></li>
+    									<li><a href="">Саки</a></li>
+    									<li><a href="">Севастополь</a></li>
+    									<li><a href="">Симферополь</a></li>
+    								</ul>
+								</div>
+							    <a href="" class="view_all">Смотреть все</a>
+							</div>
+						</div>
+
+						 <div class="col">
+
+							<div class="countru_box krum krum_2 js-equal-mob">
+								<h4>Восточный крым</h4>
+								<div class="row countru_box_list">
+    								<ul class="col">
+    									<li><a href="">Береговое</a></li>
+    									<li><a href="">Коктебель</a></li>
+    									<li><a href="">Курортное</a></li>
+    									<li><a href="">Новый свет</a></li>
+    									<li><a href="">Феодосия</a></li>
+    								</ul>
+								</div>
+							    <a href="" class="view_all">Смотреть все</a>
+							</div>
+						</div>
+						
+						<div class="col">
+    						<div class="countru_box kavminwater js-equal-mob">
+								<h4>КавМинВоды</h4>
+								<ul>
+									<li><a href="">Ессентуки</a></li>
+									<li><a href="">Железноводск</a></li>
+									<li><a href="">Кисловодск</a></li>
+									<li><a href="">Пятигорск</a></li>
+								</ul>
+							    <a href="" class="view_all">Смотреть все</a>
+    						</div>
+						</div>
+						<div class="col">
+							<div class="countru_box UK js-equal-mob">
+								<h4>Украина</h4>
+								<ul>
+									<li><a href="">Карпаты</a></li>
+									<li><a href="">Моршин</a></li>
+									<li><a href="">Трускавец</a></li>
+									<li><a href="">Сходница</a></li>
+									<li><a href="">Закарпатье</a></li>
+									<li><a href="">Миргород</a></li>
+									<li><a href="">Хмельник</a></li>
+								</ul>
+							    <a href="" class="view_all">Смотреть все</a>
+							</div>
+						</div>
+						<div class="col">
+						    <div class="countru_box krasnodar js-equal-mob">
+    							<h4>Краснодарский край</h4>
+    							<div>
+    								<div class="countru_box_sub_caption">Туапсе</div>
+    								<ul>
+    									<li><a href="">Агой</a></li>
+    									<li><a href="">Горячий Ключ</a></li>
+    									<li><a href="">Джубга</a></li>
+    									<li><a href="">Лермонтово</a></li>
+    									<li><a href="">Небуг</a></li>
+    									<li><a href="">Новомихайловский</a></li>
+    									<li><a href="">Ольгинка</a></li>
+    								</ul>
+    							</div>
+    							<div>
+    								<div class="countru_box_sub_caption">Сочи</div>
+    								<ul>
+    									<li><a href="">Адлер</a></li>
+    									<li><a href="">Вардане</a></li>
+    									<li><a href="">Дагомыс</a></li>
+    									<li><a href="">Лазаревское</a></li>
+    									<li><a href="">Лоо</a></li>
+    									<li><a href="">Хоста</a></li>
+    									<li><a href="">Ольгинка</a></li>
+    								</ul>
+    							</div>
+    					        <a href="" class="view_all">Смотреть все</a>
+    					   </div>
+						</div>
+						<div class="col">
+    						<div class="countru_box abhaziya js-equal-mob">
+    							<h4>Абхазия</h4>
+    							<div class="countru_box_list">
+    								<ul>
+    									<li><a href="">Гагра</a></li>
+    									<li><a href="">Гуадаута</a></li>
+    									<li><a href="">Новый Афон</a></li>
+    									<li><a href="">Очамчыра</a></li>
+    									<li><a href="">Пицунда</a></li>
+    									<li><a href="">Сухум</a></li>
+    								</ul>
+    							</div>
+    							<a href="" class="view_all">Смотреть все</a>
+    						</div>
+						</div>
+						<div class="col">
+    						<div class="countru_box belorus js-equal-mob">
+    							<h4>Белоруссия</h4>
+    							<div class="countru_box_list">
+    								<ul>
+    									<li><a href="">Брестская область</a></li>
+    									<li><a href="">Витебская область</a></li>
+    									<li><a href="">Гомельская область</a></li>
+    									<li><a href="">Гродненская область</a></li>
+    									<li><a href="">Минская область</a></li>
+    									<li><a href="">Могилевская область</a></li>
+    								</ul>
+    							</div>
+    							<a href="" class="view_all">Смотреть все</a>
+    						</div>
+						</div>
+						<div class="col">
+    						<div class="countru_box moscow js-equal-mob">
+    							<h4>Москва и Подмосковье</h4>
+    							<div class="countru_box_list">
+    								<ul>
+    									<li><a href="">Москва</a></li>
+    								</ul>
+    							</div>
+    							<h4>Средняя полоса России</h4>
+    							<div class="countru_box_list">
+    								<ul>
+    									<li><a href="">Ленинградская область</a></li>
+    									<li><a href="">Самарская область</a></li>
+    									<li><a href="">Свердловская область</a></li>
+    									<li><a href="">Тюменская область</a></li>
+    								</ul>
+    							</div>
+    							<h4>Татарстан</h4>
+    							<a href="" class="view_all">Смотреть все</a>
+    						</div>
+						</div>
+						<div class="col">
+    						<div class="countru_box altay js-equal-mob">
+    							<h4>Алтай</h4>
+    							<div class="countru_box_list">
+    								<ul>
+    									<li><a href="">Белокуриха</a></li>
+    									<li><a href="">Горный Алтай</a></li>
+    								</ul>
+    							</div>
+    							<a href="" class="view_all">Смотреть все</a>
+    						</div>
+						</div>
+				    </div>
+				</div>
+				<!-- end owl carousel -->
+
+
+
+                <!-- countries dasktop -->
+				<div class="desktop_curort">
+					<div class="js-curort">
+	    				<div class="row first">
+	    					<div class="col-12 col-md-12 col-lg-9">
+	    						<div class="countru_box-wrapper krum clearfix js-equal-desktop">
+	    							<div class="countru_box__header">Крым</div>
+	    							<!-- список в пол карточки -->
+			                        <div class="countru_box-wrap">
+			                            <div class="countru-box_inner row">
+			    							<div class="countru_box col-sm-6">
+			    								<div class="countru_box_sub_caption">Южный берег Крыма</div>
+			                                    
+			    								<ul class="countru-box__list countru-box__list-big row">
+			    									<li class="col-sm-6">
+				    									<ul>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Алупка</a></li>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Мисхор</a></li>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Большая Ялта</a></li>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Ореанда</a></li>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Большая Алушта</a></li>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Симеиз</a></li>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Гаспра</a></li>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Малореченское</a></li>
+					    								</ul>
+					    							</li>
+			    									<li class="col-sm-6">
+				    									<ul>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Гурзуф</a></li>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Партенит</a></li>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Кореиз</a></li>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Семидворье</a></li>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Курпаты</a></li>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Утес</a></li>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Ливадия</a></li>
+					    									<li class="country-box__item"><a href="" class="country-box__link">Форос</a></li>
+					    								</ul>
+				    								</li>
+			    								</ul>
+			    							</div>
+
+
+			    							<!-- список в 1/4 карточки -->
+			    							<div class="countru_box col-sm-3">
+			    								<div class="countru_box_sub_caption text-left">Западный Крым</div>
+			    								<ul class="country-box__list">
+			    									<li class="country-box__item"><a href="" class="country-box__link">Бухта Ласпи</a></li>
+			    									<li class="country-box__item"><a href="" class="country-box__link">Евпатория</a></li>
+			    									<li class="country-box__item"><a href="" class="country-box__link">Черноморское</a></li>
+			    									<li class="country-box__item"><a href="" class="country-box__link">Николаевка</a></li>
+			    									<li class="country-box__item"><a href="" class="country-box__link">Саки</a></li>
+			    									<li class="country-box__item"><a href="" class="country-box__link">Севастополь</a></li>
+			    									<li class="country-box__item"><a href="" class="country-box__link">Симферополь</a></li>
+			    								</ul>
+			    							</div>
+			    							<!-- список в 1/4 карточки -->
+			    							<div class="countru_box col-sm-3">
+			    								<div class="countru_box_sub_caption text-left">Восточный Крым</div>
+			    								<ul class="country-box__list">
+			    									<li class="country-box__item"><a href="" class="country-box__link">Береговое</a></li>
+			    									<li class="country-box__item"><a href="" class="country-box__link">Коктебель</a></li>
+			    									<li class="country-box__item"><a href="" class="country-box__link">Курортное</a></li>
+			    									<li class="country-box__item"><a href="" class="country-box__link">Новый свет</a></li>
+			    									<li class="country-box__item"><a href="" class="country-box__link">Феодосия</a></li>
+			    								</ul>
+			    							</div>
+			    						</div>
+	    								<a href="" class="view_all">Смотреть все</a>
+		                            </div>
+	    						</div>
+	    					</div>
+	    					<div class="col-xs-12 col-md-3 tablet-hidden">
+	    						<div class="countru_box-wrapper countru_box_1 kavminwater clearfix js-equal-desktop">
+	    							<div class="countru_box__header">КавМинВоды</div>
+
+	                            	<div class="countru_box-wrap">
+		    							<div class="countru_box">
+		    								<ul class="country-box__list">
+		    									<li class="country-box__item"><a href="" class="country-box__link">Ессентуки</a></li>
+		    									<li class="country-box__item"><a href="" class="country-box__link">Железноводск</a></li>
+		    									<li class="country-box__item"><a href="" class="country-box__link">Кисловодск</a></li>
+		    									<li class="country-box__item"><a href="" class="country-box__link">Пятигорск</a></li>
+		    								</ul>
+		    							</div>
+		    							<a href="" class="view_all">Смотреть все</a>
+		    						</div>
+	    						</div>
+	    					</div>
+	    				</div>
+
+	                    <!-- for tablet slider -->
+
+	                    <div class="row tablet-slider">
+	                        <div class="col-12 col-md-6">
+	                            <div class="countru_box-wrapper countru_box_1 kavminwater clearfix js-equal-desktop">
+	                                <div class="countru_box__header">КавМинВоды</div>
+	                            	<div class="countru_box-wrap">
+		                                <div class="countru_box">
+		                                    <ul class="country-box__list">
+		                                        <li class="country-box__item"><a href="" class="country-box__link">Ессентуки</a></li>
+		                                        <li class="country-box__item"><a href="" class="country-box__link">Железноводск</a></li>
+		                                        <li class="country-box__item"><a href="" class="country-box__link">Кисловодск</a></li>
+		                                        <li class="country-box__item"><a href="" class="country-box__link">Пятигорск</a></li>
+		                                    </ul>
+		                                </div>
+		                                <a href="" class="view_all">Смотреть все</a>
+		                            </div>
+	                            </div>
+	                        </div>
+	                        
+	                        <div class="col-12 col-md-6">
+	                            <div class="countru_box-wrapper countru_box_1 UK clearfix js-equal-desktop">
+	                                <div class="countru_box__header">Украина</div>
+	                            	<div class="countru_box-wrap">
+		                                <div class="countru_box">
+		                                    <ul class="country-box__list">
+		                                        <li class="country-box__item"><a href="" class="country-box__link">Карпаты</a></li>
+		                                        <li class="country-box__item"><a href="" class="country-box__link">Моршин</a></li>
+		                                        <li class="country-box__item"><a href="" class="country-box__link">Трускавец</a></li>
+		                                        <li class="country-box__item"><a href="" class="country-box__link">Сходница</a></li>
+		                                        <li class="country-box__item"><a href="" class="country-box__link">Закарпатье</a></li>
+		                                        <li class="country-box__item"><a href="" class="country-box__link">Миргород</a></li>
+		                                        <li class="country-box__item"><a href="" class="country-box__link">Хмельник</a></li>
+		                                    </ul>
+		                                </div>
+		                                <a href="" class="view_all">Смотреть все</a>
+		                            </div>
+	                            </div>
+	                        </div>
+	                    </div>
+
+
+
+	    				<div class="row"> 
+	    					<div class="col-12 col-md-3 tablet-hidden">
+	    						<div class="countru_box-wrapper countru_box_1 UK clearfix js-equal-desktop">
+	    							<div class="countru_box__header">Украина</div>
+	                            	<div class="countru_box-wrap">
+		    							<div class="countru_box">
+		    								<ul class="country-box__list">
+		    									<li class="country-box__item"><a href="" class="country-box__link">Карпаты</a></li>
+		    									<li class="country-box__item"><a href="" class="country-box__link">Моршин</a></li>
+		    									<li class="country-box__item"><a href="" class="country-box__link">Трускавец</a></li>
+		    									<li class="country-box__item"><a href="" class="country-box__link">Сходница</a></li>
+		    									<li class="country-box__item"><a href="" class="country-box__link">Закарпатье</a></li>
+		    									<li class="country-box__item"><a href="" class="country-box__link">Миргород</a></li>
+		    									<li class="country-box__item"><a href="" class="country-box__link">Хмельник</a></li>
+		    								</ul>
+		    							</div>
+		    							<a href="" class="view_all">Смотреть все</a>
+		    						</div>
+	    						</div>
+	    					</div>
+	    					<div class="col-12 col-md-12 col-lg-6">
+	    						<div class="countru_box-wrapper krasnodar clearfix js-equal-desktop">
+	    							<div class="countru_box__header">Краснодарский край</div>
+
+	                            	<div class="countru_box-wrap">
+		                                <div class="countru-box_inner countru_box_2 row">
+		        							<div class="countru_box col-sm-3">
+		        								<div class="countru_box_sub_caption">Туапсе</div>
+		        								<ul class="country-box__list">
+		        									<li class="country-box__item"><a href="" class="country-box__link">Агой</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Горячий Ключ</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Джубга</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Лермонтово</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Небуг</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Новомихайловский</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Ольгинка</a></li>
+		        								</ul>
+		        							</div>
+		        							<div class="countru_box col-sm-3">
+		        								<div class="countru_box_sub_caption">Сочи</div>
+		        								<ul class="country-box__list">
+		        									<li class="country-box__item"><a href="" class="country-box__link">Адлер</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Вардане</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Дагомыс</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Лазаревское</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Лоо</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Хоста</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Ольгинка</a></li>
+		        								</ul>
+		        							</div>
+		        							<div class="countru_box col-sm-3">
+		        								<div class="countru_box_sub_caption">Геленджик</div>
+		        								<ul class="country-box__list">
+		        									<li class="country-box__item"><a href="" class="country-box__link">Архипо-Осиповка</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Бетта</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Дивноморское</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Кабардинка</a></li>
+		        								</ul>
+		        							</div>
+		        							<div class="countru_box col-sm-3">
+		        								<div class="countru_box_sub_caption">Анапа</div>
+		        								<ul class="country-box__list">
+		        									<li class="country-box__item"><a href="" class="country-box__link">Витязево</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Джемете</a></li>
+		        									<li class="country-box__item"><a href="" class="country-box__link">Сукко</a></li>
+		        								</ul>
+		        							</div>
+		                                </div>
+		    							<a href="" class="view_all">Смотреть все</a>
+		    						</div>
+	    						</div>
+	    					</div>
+	    					<div class="col-12 col-md-3 tablet-hidden">
+	    						<div class="countru_box-wrapper countru_box_1 abhaziya clearfix js-equal-desktop">
+	    							<div class="countru_box__header">Абхазия</div>
+	                            	<div class="countru_box-wrap">
+		    							<div class="countru_box">
+		    								<ul class="country-box__list">
+		    									<li class="country-box__item"><a href="" class="country-box__link">Гагра</a></li>
+		    									<li class="country-box__item"><a href="" class="country-box__link">Гуадаута</a></li>
+		    									<li class="country-box__item"><a href="" class="country-box__link">Новый Афон</a></li>
+		    									<li class="country-box__item"><a href="" class="country-box__link">Очамчыра</a></li>
+		    									<li class="country-box__item"><a href="" class="country-box__link">Пицунда</a></li>
+		    									<li class="country-box__item"><a href="" class="country-box__link">Сухум</a></li>
+		    								</ul>
+		    							</div>
+		    							<a href="" class="view_all">Смотреть все</a>
+		    						</div>
+	    						</div> 
+	    					</div>
+	    				</div>
+
+
+	                    <!-- fourth tablet slider -->
+	                    <div class="row tablet-slider">
+	                        <div class="col-12 col-md-6 ">
+	                            <div class="countru_box-wrapper countru_box_1 abhaziya clearfix js-equal-desktop">
+	                                <div class="countru_box__header">Абхазия</div>
+	                                <div class="countru_box">
+	                                    <ul class="country-box__list">
+	                                        <li class="country-box__item"><a href="" class="country-box__link">Гагра</a></li>
+	                                        <li class="country-box__item"><a href="" class="country-box__link">Гуадаута</a></li>
+	                                        <li class="country-box__item"><a href="" class="country-box__link">Новый Афон</a></li>
+	                                        <li class="country-box__item"><a href="" class="country-box__link">Очамчыра</a></li>
+	                                        <li class="country-box__item"><a href="" class="country-box__link">Пицунда</a></li>
+	                                        <li class="country-box__item"><a href="" class="country-box__link">Сухум</a></li>
+	                                    </ul>
+	                                </div>
+	                                <a href="" class="view_all">Смотреть все</a>
+	                            </div> 
+	                        </div>
+
+	                        <div class="col-12 col-md-6 ">
+	                            <div class="countru_box-wrapper countru_box_1 belorus clearfix js-equal-desktop">
+	                                <div class="countru_box__header">Белоруссия</div>
+	                                <div class="countru_box">
+	                                    <ul class="country-box__list">
+	                                        <li class="country-box__item"><a href="" class="country-box__link">Брестская область</a></li>
+	                                        <li class="country-box__item"><a href="" class="country-box__link">Витебская область</a></li>
+	                                        <li class="country-box__item"><a href="" class="country-box__link">Гомельская область</a></li>
+	                                        <li class="country-box__item"><a href="" class="country-box__link">Гродненская область</a></li>
+	                                        <li class="country-box__item"><a href="" class="country-box__link">Минская область</a></li>
+	                                        <li class="country-box__item"><a href="" class="country-box__link">Могилевская область</a></li>
+	                                    </ul>
+	                                </div>
+	                                <a href="" class="view_all">Смотреть все</a>
+	                            </div>
+	                        </div>
+	                    </div>
+
+
+	    				<div class="row">
+	    					<div class="col-12 col-lg-3 col-md-6 tablet-hidden">
+	    						<div class="countru_box-wrapper countru_box_1 belorus clearfix js-equal-desktop">
+	    							<div class="countru_box__header">Белоруссия</div>
+	    							<div class="countru_box">
+	    								<ul class="country-box__list">
+	    									<li class="country-box__item"><a href="" class="country-box__link">Брестская область</a></li>
+	    									<li class="country-box__item"><a href="" class="country-box__link">Витебская область</a></li>
+	    									<li class="country-box__item"><a href="" class="country-box__link">Гомельская область</a></li>
+	    									<li class="country-box__item"><a href="" class="country-box__link">Гродненская область</a></li>
+	    									<li class="country-box__item"><a href="" class="country-box__link">Минская область</a></li>
+	    									<li class="country-box__item"><a href="" class="country-box__link">Могилевская область</a></li>
+	    								</ul>
+	    							</div>
+	    							<a href="" class="view_all">Смотреть все</a>
+	    						</div>
+	    					</div>
+	    					<div class="col-12 col-md-6">
+	    						<div class="countru_box-wrapper countru_box_2 moscow clearfix js-equal-desktop">
+	    							<div class="countru_box__header">Москва и Подмосковье</div>
+	    							<div class="countru_box ">
+	    								<ul class="country-box__list">
+	    									<li class="country-box__item"><a href="" class="country-box__link">Москва</a></li>
+	    								</ul>
+	    							</div>
+	    							<div class="countru_box__header countru_box__header-2">Средняя полоса России</div>
+	    							<div class="countru_box">
+	    								<div class="row">
+	    									<div class="col-md-12 col-lg-6">
+	    										<ul class="country-box__list">
+			    									<li class="country-box__item"><a href="" class="country-box__link">Ленинградская область</a></li>
+			    									<li class="country-box__item"><a href="" class="country-box__link">Самарская область</a></li>
+			    									<li class="country-box__item"><a href="" class="country-box__link">Свердловская область</a></li>
+			    									<li class="country-box__item"><a href="" class="country-box__link">Тюменская область</a></li>
+			    								</ul>
+	    									</div>
+	    									<div class="col-md-12 col-lg-6">
+	    										<ul class="country-box__list">
+			    									<li class="country-box__item"><a href="" class="country-box__link">Ульяновская область</a></li>
+			    									<li class="country-box__item tablet-hidden"><a href="" class="country-box__link">Челябинская область</a></li>
+			    									<li class="country-box__item tablet-hidden"><a href="" class="country-box__link">Ярославская область</a></li>
+			    								</ul>
+	    									</div>
+	    								</div>
+	    								
+	    								
+	    							</div>
+	    							<div class="countru_box__header countru_box__subheader countru_box__header-1">Татарстан</div>
+	    							<a href="" class="view_all">Смотреть все</a>
+	    						</div>
+	    					</div>
+	    					<div class="col-12 col-md-6 col-lg-3">
+	    						<div class="countru_box-wrapper countru_box_1 altay clearfix js-equal-desktop">
+	    							<div class="countru_box__header">Алтай</div>
+	    							<div class="countru_box">
+	    								<ul class="country-box__list">
+	    									<li class="country-box__item"><a href="" class="country-box__link">Белокуриха</a></li>
+	    									<li class="country-box__item"><a href="" class="country-box__link">Горный Алтай</a></li>
+	    								</ul>
+	    							</div>
+	    							<a href="" class="view_all">Смотреть все</a>
+	    						</div>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+			</div>
+		</section>
+
+		<section class="we_help">
+			<div class="container container-fluid">
+				<h3>Поможем выбрать оптимальный санаторий, по вашему бюджету и запросам</h3>
+				<div class="row write-us-wrapper">
+                    
+    					<div class="col-12 col-md-6 write-us">
+    						<div class="write-us__header">Напишите нам:</div>
+    						<div class="social_link">
+    							<a class="telegram_bg write-us__link" href="">Telegram</a>
+    							<a class="facebook_bg write-us__link" href="">Facebook</a>
+    							<a class="viber_bg write-us__link" href="">Viber</a>
+    						</div>
+    						<div class="write-us__header write-us__header-phone">Позвоните нам:</div>
+    						<div class="write-us__subheader">(Звонок по России бесплатный)</div>
+    						<a class="yellow_link" href="tel:8-800-333-41-99">8-800-333-41-99</a>
+                        </div>
+    				
+                    
+					<div class="col-12 col-md-6 justify-conent-end consultation-form">
+						<div class="callback__header">В течении 10 минут менеджер свяжется с Вами, предложит варианты и сориентирует по ценам.</div>
+						<form action="mail.php" method="POST" id="form1">
+							<div class="row form-block">
+								<div class="col-12 col-sm-12 col-md-12 col-lg-6">
+									<input type="text" placeholder="Ваше имя" name="name">
+									<input type="text" placeholder="Ваш телефон" name="phone">
+								</div>
+								<div class="col-12 col-sm-12 col-md-12 col-lg-6">
+									<textarea name="commond" placeholder="Комментарий"></textarea>
+								</div>
+							</div>
+							<button name="submit" type="submit" class="button">Заказать консультацию</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="why">
+			<div class="container container-fluid">
+				<h3>Почему клиенты выбирают Путевка.ком</h3>
+				<div class="row row-why">
+					<div class="col-6 col-md-4">
+						<div class="why-block">
+                            <div class="why__img">
+                                <img src="img/why-1.png" alt="">
+                            </div>
+							
+							<div class="why__header">Официальный туроператор</div>
+							<div class="why__text">Лицензия №….</div>
+						</div>
+					</div>
+					<div class="col-6 col-md-4">
+						<div class="why-block">
+                            <div class="why__img">
+                                <img src="img/why-2.png" alt="">
+                            </div>
+							<div class="why__header">Прямое бронирование</div>
+							<div class="why__text">Санатории и пансионаты выставляют на Путевке официальные цены и Вы бронируете без переплат.</div>
+						</div>
+					</div>
+					<div class="col-6 col-md-4">
+						<div class="why-block">
+                            <div class="why__img">
+                                <img src="img/why-3.png" alt="">
+                            </div>
+							
+							<div class="why__header">Полностью организуем отдых</div>
+							<div class="why__text">Мы забронируем для Вас не только путевку, но и билет (авиа, ж/д), трансфер и многое другое.</div>
+						</div>
+					</div>
+					<div class="col-6 col-md-4">
+						<div class="why-block">
+                            <div class="why__img">
+                               <img src="img/why-4.png" alt=""> 
+                            </div>
+							
+							<div class="why__header">Работаем 7 дней в неделю</div>
+							<div class="why__text">Наши эксперты всегда на связи и подберут лучшие варианты. А также будут отвечать на любые вопросы во время отдыха.</div>
+						</div>
+					</div>
+					<div class="col-6 col-md-4">
+						<div class="why-block">
+                            <div class="why__img">
+                                <img src="img/why-5.png" alt="">
+                            </div>
+							
+							<div class="why__header">Вам не нужно идти в турагентство</div>
+							<div class="why__text">Наш сервис дает уникальную возможность получить все официальные документы (путевку и договор) по электронной почте или заказным письмом.</div>
+						</div>
+					</div>
+					<div class="col-6 col-md-4">
+						<div class="why-block">
+                            <div class="why__img">
+                               <img src="img/why-6.png" alt=""> 
+                            </div>
+							
+							<div class="why__header">Любые удобные способы оплаты.</div>
+							<div class="why__text">По счету в банке, картой на сайте, в терминале, наличными в офисе – мы позаботились, чтобы оплатить путевку было быстро и легко</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="popular">
+			<div class="container container-fluid">
+				<h3>Популярные санатории и отели</h3>
+				<div class="popular__subheader">Выберите регион и получите список предложений</div>
+				<div class="filter-region">
+					<div class="dropdown">
+					  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    Крым
+					  </a>
+
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+					    <a href="#" class="dropdown-item selected">Крым</a>
+					    <a href="#" class="dropdown-item">Севастополь</a>
+					    <a href="#" class="dropdown-item">Кавминводы</a>
+					    <a href="#" class="dropdown-item">Курорты Украины</a>
+					  </div>
+					</div>
+				</div>
+				<div class="row popular-hotels owl-carousel owl-carousel4 js-carousel">
+					<div class="col-12 col-md-12 col-lg-3">
+						<div class="popular-block">
+							<div class="popular__img" style="background-image: url(img/popular-1.png)"></div>
+							<div class="popular__city">Гостиничный комплекс Aquamarine Resort & SPA</div>
+							<span class="popular__region"><a href="#">Севастополь</a></span>
+							<a href="#" class="popular__link">Подробнее</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-3">
+						<div class="popular-block">
+							<div class="popular__img" style="background-image: url(img/popular-2.png)"></div>
+							<div class="popular__city">Отель Riviera Sunrise Resort & SPA (Ривьера, ex.Radisson SAS Resort)</div>
+							<span class="popular__region"><a href="#">Алушта</a></span>
+							<a href="#" class="popular__link">Подробнее</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-3">
+						<div class="popular-block">
+							<div class="popular__img" style="background-image: url(img/popular-3.png)"></div>
+							<div class="popular__city">Гостиница Апартамент Сон у Моря</div>
+							<span class="popular__region"><a href="#">Курпаты</a></span>
+							<a href="#" class="popular__link">Подробнее</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-3">
+						<div class="popular-block">
+							<div class="popular__img" style="background-image: url(img/popular-4.png)"></div>
+							<div class="popular__city">Гостиница Вилла Елена</div>
+							<span class="popular__region"><a href="#">Ялта</a></span>
+							<a href="#" class="popular__link">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
+
+		<section class="review">
+			<div class="container container-fluid">
+				<h3 class="review__header">Отзывы о нашей компании</h3>
+                <div class="review__subheader">  с независимых ресурсов</div>
+				<div class="review__block owl-carousel js-slider">
+					<div class="review__item">
+						<div class="review__author">
+							<span style="background-image: url(img/krum.png)" class="avatar"></span><span class="review__name">Наталья</span>
+						</div>
+						<div class="review__text">Хочется поделиться со всеми, какую отличную онлайн систему бронирования я нашла! А именно - путевка.ком. Мы с моим супругом стараемся хотя бы раз в год съездить в санаторий, у него больной желудок, у меня - спина. Решили воспользоваться системой бронирования, чтобы перестраховаться. Правильно сделали! Во-первых, мне очень сайт понравился - удобно все, написаны цены, услуги... Потом нам перезвонили оттуда, вежливая такая девочка, с ее помощью очень быстро оформили докумены. Мы очень довольны, спасибо!</div>
+					</div>
+					<div class="review__item">
+						<div class="review__author">
+							<span style="background-image: url(img/tamara.png)" class="avatar"></span><span class="review__name">Тамара</span>
+						</div>
+						<div class="review__text">Всю зиму я болела и мой участковый терапевт настоятельно рекомендовал мне подлечиться в санатории. Этот сервис Putevka.com оказался очень удобен по поиску санатория по профилю лечения, питанию и расположению. Я подобрала парочку вариантов, позвонила в компанию и менеджер, выслушав мои пожелания помогла определиться в выборе. Стоимость путевки меня устраивала, по поводу оформления нервничать не пришлось, через полчасика документы пришли на е-мейл. Отдохнула я классно, мне все понравилось, лечение прошло удачно.</div>
+					</div>
+					<div class="review__item">
+						<div class="review__author">
+							<span style="background-image: url(img/nataly.png)" class="avatar"></span><span class="review__name">Наталья</span>
+						</div>
+						<div class="review__text">Хочется поделиться со всеми, какую отличную онлайн систему бронирования я нашла! А именно - путевка.ком. Мы с моим супругом стараемся хотя бы раз в год съездить в санаторий, у него больной желудок, у меня - спина. Решили воспользоваться системой бронирования, чтобы перестраховаться. Правильно сделали! Во-первых, мне очень сайт понравился - удобно все, написаны цены, услуги... Потом нам перезвонили оттуда, вежливая такая девочка, с ее помощью очень быстро оформили докумены. Мы очень довольны, спасибо!</div>
+					</div>
+
+					<div class="review__item">
+						<div class="review__author">
+							<span style="background-image: url(img/nataly.png)" class="avatar"></span><span class="review__name">Наталья</span>
+						</div>
+						<div class="review__text">Хочется поделиться со всеми, какую отличную онлайн систему бронирования я нашла! А именно - путевка.ком. Мы с моим супругом стараемся хотя бы раз в год съездить в санаторий, у него больной желудок, у меня - спина. Решили воспользоваться системой бронирования, чтобы перестраховаться. Правильно сделали! Во-первых, мне очень сайт понравился - удобно все, написаны цены, услуги... Потом нам перезвонили оттуда, вежливая такая девочка, с ее помощью очень быстро оформили докумены. Мы очень довольны, спасибо!</div>
+					</div>
+				</div>
+				<p class="review__txt">Вы так же можете прочитать отзывы о нас на независимых источниках</p>
+				<div class="row justify-content-center">
+                    <div class="col-12  col-sm-12 col-lg-10">
+                        <div class="row ">
+    					   <div class="col-6 col-md-3"><a href="#" class="review__link">irecommend.ru</a></div>
+                       
+    					   <div class="col-6 col-md-3"><a href="#" class="review__link">ru.otzyv.com</a></div>
+                       
+    					   <div class="col-6 col-md-3"><a href="#" class="review__link">otzovik.com</a></div>
+                       
+    					   <div class="col-6 col-md-3"><a href="#" class="review__link">otzyv-pro.ru</a></div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</section>
+
+		<section class="news">
+			<div class="container container-fluid">
+				<h3 class="news__header">Новости</h3>
+				<div class="row news-slider owl-carousel js-carousel">
+					<div class="col-12 col-md-12 col-lg-3">
+						<div class="news__block">
+							<div class="news__picture">
+								<div class="news__img" style="background-image: url(img/news1.png)"></div>
+								<div class="news__text">Этим летом в Краснодарском крае уже отдохнуло...</div>
+							</div>
+							<p class="news__txt">С начала текущего летнего сезона 2018 года курорты Кубани посетило 4,6 миллиона туристов, что на 10% превышает число гостей, по...</p>
+							<a href="#" class="news__link">Читать полностью</a>
+							<span class="news__data">30 июля 2018</span>
+						</div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-3">
+						<div class="news__block">
+							<div class="news__picture">
+								<div class="news__img" style="background-image: url(img/news2.png)"></div>
+								<div class="news__text">Возобновлено движение пригородных поездов в н...</div>
+							</div>
+							<p class="news__txt">С 1 августа 2018 года возобновлено движение пригородных поездов по маршруту Адлер – Г	агра. Теперь попасть в Абхазию можно без о...</p>
+							<a href="#" class="news__link">Читать полностью</a>
+							<span class="news__data">30 июля 2018</span>
+						</div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-3">
+						<div class="news__block">
+							<div class="news__picture">
+								<div class="news__img" style="background-image: url(img/news3.png)"></div>
+								<div class="news__text">Железноводск отметит День города зрелищным ф...</div>
+							</div>
+							<p class="news__txt">С 15 по 21 сентября в городе-курорте Железноводск Ставропольского Края пройдёт крупнейший в стране фестиваль воздухоплавания. К...</p>
+							<a href="#" class="news__link">Читать полностью</a>
+							<span class="news__data">30 июля 2018</span>
+						</div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-3">
+						<div class="news__block">
+							<div class="news__picture">
+								<div class="news__img" style="background-image: url(img/news3.png)"></div>
+								<div class="news__text">В Крыму появится новая туристическая...</div>
+							</div>
+							<p class="news__txt">Список природных достопримечательностей Крымского полуострова в скором времени пополнит уникальная...</p>
+							<a href="#" class="news__link">Читать полностью</a>
+							<span class="news__data">30 июля 2018</span>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="button news__button">Все новости</a>
+			</div>	
+		</section>
+
+		
+
+        <section class="popular popular-bottom">
+            <div class="container container-fluid">
+                <h3 class="popular__header">Сегодня забронировано <b class="popular__span">235</b> путевок</h3>
+               
+
+				<div class="row popular-hotels owl-carousel owl-carousel4 js-carousel">
+					<div class="col-12 col-md-12 col-lg-3">
+						<div class="popular-block">
+							<div class="popular__img" style="background-image: url(img/popular-1.png)"></div>
+							<div class="popular__city">Гостиничный комплекс Aquamarine Resort & SPA</div>
+							<span class="popular__region"><a href="#">Севастополь</a></span>
+							<a href="#" class="popular__link">Подробнее</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-3">
+						<div class="popular-block">
+							<div class="popular__img" style="background-image: url(img/popular-2.png)"></div>
+							<div class="popular__city">Отель Riviera Sunrise Resort & SPA (Ривьера, ex.Radisson SAS Resort)</div>
+							<span class="popular__region"><a href="#">Алушта</a></span>
+							<a href="#" class="popular__link">Подробнее</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-3">
+						<div class="popular-block">
+							<div class="popular__img" style="background-image: url(img/popular-3.png)"></div>
+							<div class="popular__city">Гостиница Апартамент Сон у Моря</div>
+							<span class="popular__region"><a href="#">Курпаты</a></span>
+							<a href="#" class="popular__link">Подробнее</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-3">
+						<div class="popular-block">
+							<div class="popular__img" style="background-image: url(img/popular-1.png)"></div>
+							<div class="popular__city">Гостиница Вилла Елена</div>
+							<span class="popular__region"><a href="#">Ялта</a></span>
+							<a href="#" class="popular__link">Подробнее</a>
+						</div>
+					</div>
+				</div>
+            </div>  
+        </section>
+
+
+		<section class="section section_nine">
+			<div class="container container-fluid">
+				<h2 class="section__title">Хотите забронировать путевку со скидкой?</h2>
+				<p class="section__about">Свяжитесь с нами, и мы расскажем про акционные предложения.</p>
+				<form action="mail.php" method="POST" class="form" id="form2">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-12 col-lg-9">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <input type="text" class="form__input" placeholder="Ваше имя" name="names">
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <input type="text" class="form__input" placeholder="Ваш телефон" name="phones">
+                            </div>
+                            <div class="col-8 col-md-4 col-lg-4">
+                                <button type="submit" name="sub" class="button button_form">Выбрать путевку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+					
+				</form>
+				<div class="all">
+					<span class="all__header">Или позвоните нам</span>
+					<span class="all__subheader">(Звонок по России бесплатный)</span>
+
+					<a href="tel:8-800-333-41-99" class="all__phone">8-800-333-41-99</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+
+	<footer class="footer">
+		<div class="container container-fluid">
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-5">
+					<a href="/" class="footer__logo">
+						<img src="img/logo.png" alt="logo">
+					</a>
+					<div class="footer-row row">
+						<div class="col-12 col-md-6 col-lg-6">
+							<div class="footer__phone">
+								<img src="img/russia.png" alt="" class="footer__img">
+								<span class="footer__ph"><a href="tel:88003334199">8 800-333-41-99</a></span>
+								<span class="footer__ph"><a href="tel:+74997030120">+7 499 703-01-20</a></span>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-6">
+							<div class="footer__phone">
+								<img src="img/ukraine.png" alt="" class="footer__img">
+								<span class="footer__ph"><a href="tel:8800750100">8 800-750-100</a></span>
+								<span class="footer__ph"><a href="tel:+380443839285">+38 (044) 383-92-85</a></span>
+							</div>
+						</div>
+					</div>
+					<div class="footer-row row">
+						<div class="col-12 col-md-6 col-lg-6">
+							<div class="footer__phone">
+								<img src="img/lithuania.png" alt="" class="footer__img">
+								<span class="footer__ph"><a href="tel:37052140917">+3 705 214-09-17</a></span>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-6">
+							<div class="footer__phone">
+								<img src="img/kazakhstan.png" alt="" class="footer__img">
+								<span class="footer__ph"><a href="tel:77273505262">+7 727 350-52-62</a></span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<a href="#" class="button footer__backcall">Заказать звонок</a>
+							
+						</div>
+					</div>
+					<div class="row d-flex justify-content-center">
+						<div class="col-7 col-md-6">
+							<span class="soc">Мы в соц. сетях:</span>
+							<div class="row">
+								<div class="col-6">
+									<a href="#" class="soc__name soc__name_yout soc__name_right">YouTube</a>
+								</div>
+								<div class="col-6">
+									<a href="#" class="soc__name soc__name_faceb soc__name_left">Facebook</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-2 tablet-hidden">
+                    <div class="first-list-wrapper ">
+    					<ul class="footer__list ">
+    						<li class="footer__item"><a href="#" class="footer__link">Россия</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Беларусь</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Украина</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Подмосковье</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Алтай</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Абхазия</a></li>
+    					</ul>
+
+    					<ul class="footer__list tablet-hidden" >
+    						<li class="footer__item"><span class="footer__name">Краснодарский край</span></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Сочи</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Геленджик</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Туапсе</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Анапа</a></li>
+    					</ul>
+
+    					<ul class="footer__list tablet-hidden">
+    						<li class="footer__item"><span class="footer__name">КавМинВоды</span></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Ессентуки</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Железноводск</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Кисловодск</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Пятигорск</a></li>
+    					</ul>
+                    </div>
+				</div>
+				<div class="col-12 col-md-2 tablet-hidden">
+                    <div class="second-list-wrapper">
+    					<ul class="footer__list ">
+    						<li class="footer__item"><span class="footer__name">Крым</span></li>
+    						<li class="footer__item"><a href="#" class="footer__link">ЮБК</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Ялта</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Алушта</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Гурзуф</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Ливадия</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Алупка</a></li>
+    					</ul>
+
+    					<ul class="footer__list">
+    						<li class="footer__item"><span class="footer__name">Западный крым</span></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Евпатория</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Саки</a></li>
+    					</ul>
+
+    					<ul class="footer__list">
+    						<li class="footer__item"><span class="footer__name">Восточный крым</span></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Феодосия</a></li>
+    						<li class="footer__item"><a href="#" class="footer__link">Судак</a></li>
+    					</ul>
+                    </div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3">
+                    <div class="third-list-wrapper">
+    					<div class="footer__info footer__info_mt d_n tablet-hidden">
+    						<span class="footer__name">О компании</span>
+    						<p class="footer__text">ООО "Система бронирования Путевка"</p>
+    					</div>
+                        <ul class="footer__list tablet-show">
+                            <li class="footer__item"><a href="#" class="footer__link">Россия</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Беларусь</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Украина</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Подмосковье</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Алтай</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Абхазия</a></li>
+                        </ul>
+
+    					<div class="footer__info documents">
+    						<span class="footer__name">Документы</span>
+    						<p class="footer__text">ИНН/КПП</p>
+    						<p class="footer__text">Лицензия туроператора PTO</p>
+    					</div>
+    					<div class="footer__info ofice">
+    						<span class="footer__name ">Центральный офис в Москве</span>
+    						<p class="footer__text">ул. Рождественский бульвар 9, оф. 213</p>
+    						<p class="footer__text">Метро Трубная (2 минуты)</p>
+    						<a href="#" class="footer__lin">Схема проезда</a>
+    					</div>
+    					<div class="footer__info d_n tablet-hidden ">
+    						<span class="footer__name">Офис для партнеров</span>
+    						<p>Москва, ул. Хуторская 2-я, 31А </p>
+    					</div>
+
+                        
+    					<div class="footer__info d_n tablet-hidden">
+    						<span class="footer__name">Офис в Украине</span>
+    						<p class="footer__text">Киев, ул. Княжий затон, 9а</p>
+    					</div>
+                    </div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="container">
+				<p class="footer__txt">Официальный сайт Путевка.ком - Все права защищены.</p>
+				<a href="#" class="footer__policy">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</footer>
+<div class="icon-load"></div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap-select.js"></script>
+	<script src="js/datepicker.min.js"></script>
+	<script src="js/bootstrap-multiselect.js"></script>
+	<script src="js/jquery.equalheights.min.js"></script>
+	<script src="js/components/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

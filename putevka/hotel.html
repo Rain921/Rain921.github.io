@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Путевка</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<style>
+			.loaded main, .loaded header, .loaded footer{
+				visibility:hidden;
+				}
+			.icon-load{
+				background:url(img/loader.gif) no-repeat left top;
+				width:40px;
+				height:40px;
+				position:fixed;
+				left:50%;
+				top:50%;
+				margin-left:-20px;
+				margin-left:-20px;
+				display:none;
+			}
+			.loaded .icon-load{
+				display:block;
+			}
+		</style>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-select.css">
+		<link rel="stylesheet" href="css/datepicker.min.css">
+		<link rel="stylesheet" href="css/datepicker.min.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+		
+		<body class="loaded">
+			<header>
+				<div class="container container-fluid header-top">
+					<div class="row ">
+						<div class="col-12 col-md-4 contacts">
+							<div class="contact_header">
+								<a href="tel:88003334199"><span></span> 8-800-333-41-99</a>
+								<a href="tel:+74997030120">+7 499 703-01-20</a>
+								<a href="#popup" class="js-popup">Контакты и офисы</a>
+							</div>
+						</div>
+						<div class="col-12 col-md-4 col-sm-12">
+							<div class="logo">
+								<img src="img/logo.png" alt="">
+								<img src="img/logo_mob.png" alt="">
+							</div>
+						</div>
+						<!-- <div class="col-12 col-md-4"> -->
+						<div class="col-lg-4 col-md-8 col-sm-8 search">
+							
+							<div class="search-header">
+								<form class="form-inline search_header">
+									<input class="form-control js-search" id="search" type="search" placeholder="Поиск по названию" aria-label="Search">
+									<button class="btn btn-outline-success" type="submit"></button>
+								</form>
+								<div id="wrapForListHotel2" class="wrapForListHotel2">
+									<div class="hotels__list">
+										<div class="hotels__item">
+											<div class="hotels__item_name">
+												Аква<strong>мар</strong>ин 3
+												<span class="star-yellow">Звезд</span>
+												
+												<span>4.92</span>
+											</div>
+											<span class="grey">Созополь</span>
+										</div>
+										<div class="hotels__item">
+											<div class="hotels__item_name">
+												Аква<strong>мар</strong>ин 3
+												<span class="star-yellow">Звезд</span>
+												
+												<span>4.92</span>
+											</div>
+											<span class="grey">Созополь</span>
+										</div>
+										<div class="hotels__item">
+											<div class="hotels__item_name">
+												Аква<strong>мар</strong>ин 3
+												<span class="star-yellow">Звезд</span>
+												
+												<span>4.92</span>
+											</div>
+											<span class="grey">Созополь</span>
+										</div>
+										
+									</div>
+								</div>
+								<a href="#" class="status-order">Статус заявки</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mobile-nav-wrapper">
+					<div class="container container-fluid">
+						<div class="mobile-nav ">
+							<a href="tel:88003334199">8-800-333-41-99 <span></span></a>
+							<a href="tel:+74997030120">+7 499 703-01-20</a>
+							<a href="">Контакты и офисы</a>
+							<div class="burger js-burger">
+								<div class="top-line line"></div>
+								<div class="middle-line line"></div>
+								<div class="bottom-line line"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container container-fluid nav-pane js-nav">
+					<ul class="nav nav-pills nav-fill">
+						<li class="nav-item">
+							<a class="nav-link active" href="#">Санатории и пансионаты</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Авиабилеты</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">О компании</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Агенствам</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Как забронировать</a>
+						</li>
+					</ul>
+					<div class="search_mob">
+						<form class="form-inline search_header">
+							<input class="form-control js-search" id="search" type="search" placeholder="Поиск по названию" aria-label="Search">
+							<button class="btn btn-outline-success" type="submit"></button>
+						</form>
+						<div id="wrapForListHotel2" class="wrapForListHotel2">
+							<div class="hotels__list">
+								<div class="hotels__item">
+									<div class="hotels__item_name">
+										Аква<strong>мар</strong>ин 3
+										<span class="star-yellow">Звезд</span>
+										
+										<span>4.92</span>
+									</div>
+									<span class="grey">Созополь</span>
+								</div>
+								<div class="hotels__item">
+									<div class="hotels__item_name">
+										Аква<strong>мар</strong>ин 3
+										<span class="star-yellow">Звезд</span>
+										
+										<span>4.92</span>
+									</div>
+									<span class="grey">Созополь</span>
+								</div>
+								<div class="hotels__item">
+									<div class="hotels__item_name">
+										Аква<strong>мар</strong>ин 3
+										<span class="star-yellow">Звезд</span>
+										
+										<span>4.92</span>
+									</div>
+									<span class="grey">Созополь</span>
+								</div>
+								
+							</div>
+						</div>
+						<a href="#" class="status-order">Статус заявки</a>
+					</div>
+					<div class="cross js-cross">
+						<div class="top-line line"></div>
+						<div class="bottom-line line"></div>
+					</div>
+					<div class="overlay js-overlay"></div>
+				</div>
+				
+				
+			</header>
+			<main>
+				<div class="container container-fluid">
+					<div class="row">
+						<section class="col-12 crumbs">
+							
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item"><a href="#">Главная</a></li>
+									<li class="breadcrumb-item"><a href="#">Крым</a></li>
+									<li class="breadcrumb-item"><a href="#">Саки</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Санаторий Полтава-Крым</li>
+								</ol>
+							</nav>
+							<div class="cites-this">
+								<h3>Санаторий Полтава-Крым</h3>
+								<h5>Россия, Крым, г. Саки, 296500, ул. Морская, 8.</h5>
+							</div>
+							<div class="cites-price">
+								<button data-href="#price">Посмотреть цены</button>
+								<h5>От <span>4220</span> руб.</h5>
+							</div>
+							
+							
+						</section>
+					</div>
+					
+					<section class="row carousel">
+						<div class="col-12 slider carousel-js owl-carousel">
+							<div class="item">
+								<img src="img/slider-1.jpg" alt="img">
+							</div>
+							<div class="item">
+								<img src="img/slider-2.jpg" alt="img">
+							</div>
+							<div class="item">
+								<img src="img/slider-3.jpg" alt="img">
+							</div>
+							<div class="item">
+								<img src="img/slider-4.jpg" alt="img">
+							</div>
+							<div class="item">
+								<img src="img/slider-4.jpg" alt="img">
+							</div>
+						</div>
+						
+					</section>
+				</div>
+				<div class="container container-fluid">
+					<div class="row info">
+						<nav class="col-12">
+							<ul class="nav nav-tabs">
+								<li class="nav-item">
+									<a class="nav-link active" href="#">Информация</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Лечение</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Трансфер и авибилет</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Отзывы (435)</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="col-xl-9 col-lg-7">
+							
+							<div class="tab-content">
+								<div class="tab-pane">
+									<div class="tab-pane__title">
+										<h5>Общая информация</h5>
+									</div>
+									<p><img src="img/tab-content/alarm-clock.svg" alt="img"><span>Расчётный час:</span> Заезд с 10:00, выезд до 8:00 (без завтрака).</p>
+									<p><img src="img/tab-content/swimming.svg" alt="img"><span>Крытый бассейн:</span> Входит в стоимость по путевке с лечением по назначению врача. За дополнительную плату по путевке без лечения, 200 рублей за 30 минут . 2 бассейна с термальной минеральной водой. Площадь каждого бассейна 5*12 метров. Термальная минеральная вода подается в бассейн из артезианского источника. Минерализованная слабосоленая вода обладает терапевтическим эффектом и способствует заживлению ран и укреплению суставов. Дети могут плавать с 5 лет в сопровождении взрослых. Фото крытого бассейна.</p>
+									<p><img src="img/tab-content/surface1.svg" alt="img"><span>Расстояние до моря:</span> 50 метров. Пляж: Собственный, песчано-галечный, оборудован навесами, прокат зонтиков, шезлонгов. </p>
+									<p><img src="img/tab-content/parking.svg" alt="img"><span>Парковка: </span>За дополнительную плату (140 руб./сутки). </p>
+									<p><img src="img/tab-content/Group.svg" alt="img"><span>WI-FI:</span> Входит в стоимость. Доступ в Интернет предоставляется в номерах санатория (спальные корпуса № 1, 2, 3, 4), на территории (кроме пляжа и закрытых зон) и общественных местах (медицинский центр, административное здание).</p>
+									<p><img src="img/tab-content/alarm-clock.svg" alt="img"><span>Питание:</span> Во всех категориях номеров и на дополнительных местах включено 3-разовое питание «Шведский стол». В категории номеров люкс/полулюкс организовано по принципу «Банкетный зал» индивидуального меню, основанного на пожеланиях отдыхающего и рекомендациях его лечащего врача или диетолога. Также предусмотрено диетическое меню. За питание в Банкетном зале: доплата в сутки - 440р/сутки за 1го человек (за детей и взрослых на основных местах), доплата за ребёнка от 3-до 14 лет при размещении на дополнительном месте — 60 р. в сутки . Заказать можно только по приезду . В рационе отдыхающих всегда присутствуют в достаточном количестве: мясо, рыба, овощи, фрукты, молочные и кисломолочные продукты, выпечка, изделия из теста и другие продукты. Из напитков предлагаются чай разных сортов, кофе, какао, соки, компот, каркаде и другие. Консультация врача-диетолога поможет подобрать блюда диетического питания с учетом показаний, диагноза. Завтрак со дня заезда не переноситься на завтрак дня выезда.</p>
+									<div class="tab-pane__btn">
+										<button >Больше информации <img src="img/otel/down.svg" alt="img"></button>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-5">
+							<div class="prof">
+								<div class="prof__title">
+									<h5>Основные профили лечения</h5>
+								</div>
+								<div class="procedures-services__block procedures-services__block_small">
+									<ul class="procedures-services__list">
+										<li class="procedures-services__item">Гинекология</li>
+										<li class="procedures-services__item">Кожные заболевания</li>
+										<li class="procedures-services__item">Нарушение обмена веществ</li>
+										<li class="procedures-services__item">Нервная система</li>
+										<li class="procedures-services__item">Опорно-двигательная система</li>
+										<li class="procedures-services__item">Органы дыхания и ЛОР органы</li>
+										<li class="procedures-services__item">Пищеварительная система</li>
+										<li class="procedures-services__item">Сердечнососудистая система</li>
+										<li class="procedures-services__item">Урология</li>
+									</ul>
+									<p><span>Санаторно-курортная карта:</span> На месте не оформляют. Обязательно иметь при себе.</p>
+									<p><span>Минимальный возраст лечения детей:</span> 5 лет</p>
+									<p><span>Максимальный возраст отдыхающих:</span> ограничений по возрасту нет, но если старше 70 лет, то обязательно наличие СКК</p>
+								</div>
+								<div class="procedures-services__btn">
+									<a>Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="section section_nine otel-info">
+					<div class="container container-fluid">
+						<div class="row otel-info__item">
+							<div class="callback col-lg-3 col-md-12">
+								<div class="callback__btn">
+									<button>Вам перезвонить?</button>
+									<a href="#">Заказать авиабилеты</a>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-12">
+								<div class="booking-text">
+									<h5>Бронирование путевок и авиабилетов</h5>
+									<a href="tel:8(800)3334199">8 (800) 333 41 99</a>
+									<p>звонки по России бесплатно
+										<a href="tel:+7(499)703-01-20">+7 (499) 703-01-20</a>
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-12">
+								<div class="contact-helper helper-contact__networks">
+									<div class="networks-title">Или напишите нам:</div>
+									<div class="networks-list">
+										<a href="#" class="networks-list__item">
+											<img src="img/chat.svg" alt="chat">
+											<span>Онлайн чат</span>
+										</a>
+										<a href="#" class="networks-list__item">
+											<img src="img/viber.png" alt="chat">
+											<span>viber</span>
+										</a>
+										<a href="#" class="networks-list__item">
+											<img src="img/facebook.png" alt="chat">
+											<span>facebook</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="otel-docs" id="price">
+					<div class="container container-fluid">
+						<div class="otel-docs__item row">
+							<div class="col-lg-6 col-md-12">
+								<div class="otel-docs__info">
+									<div class="otel-docs__title">
+										<h5>Что входит в стоимость</h5>
+									</div>
+									<p><span>Тариф Без лечения:</span>проживание, 3-разовое питание, пользование пляжем, библиотекой, детскими игровыми площадками</p>
+									<p><span>Тариф С лечением:</span> проживание, 3-разовое питание, лечение по основному профилю.</p>
+									<p><span>Тариф С лечением DeTox:</span> проживание, 3-разовое питание, лечение по программе DeTox.</p>
+									<p>Авиабилеты и трансфер не входят в стоимость путевки, но наши менеджеры подберут и забронируют их для Вас дополнительно (без коммисий и переплат).</p>
+									<div class="otel-docs__btn">
+										<button>Поиск авиабилетов</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-12 ">
+								<div class="otel-docs__info">
+									<div class="otel-docs__title">
+										<h5>Документы для заселения</h5>
+									</div>
+									<div class="procedures-services__block procedures-services__block_small">
+										<ul class="procedures-services__list">
+											<p>Для взрослых:</p>
+											<li class="procedures-services__item">паспорт;</li>
+											<li class="procedures-services__item">путевка;</li>
+											<li class="procedures-services__item">санаторно-курортная карта.<a href="#">Как офрмить карту?</a></li>
+										</ul>
+										<ul class="procedures-services__list">
+											<p>Для детей:</p>
+											<li class="procedures-services__item">свидетельство о рождении;<a href="#">Как получить справки?</a></li>
+											<li class="procedures-services__item">наличие справки о прививках и эпидемиологическом окружении для гостей до 17 лет строго обязательно. В случае отсутствия указанных справок, санаторий вправе отказать в размещении и оказании услуг, без возмещения стоимости за неиспользованные дни путевки;</li>
+										</ul>
+										
+									</div>
+									
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</section>
+				<section class="price-years container container-fluid">
+					<h1 class="region-title">Официальные цены на 2018 год</h1>
+					<div class="aside__select">
+						<select id="filter-reg" class="selectpicker filter-select">
+							<option selected>В рублях</option>
+							<option>В гривнах</option>
+							<option>В долларах</option>
+						</select>
+					</div>
+				</section>
+				<div class="main-block tours" style="background: #2D9CDB url(img/otel/Group2.png) no-repeat center;">
+					<div class="container container-fluid">
+						<div class="row relaxation-block">
+							<form action="send.php" class="form_tours">
+								<div class="tours-question">
+									<a href="#">Поездка отменилась? Вернем предоплату</a>
+									<a href="#">Как забронировать и оплатить</a>
+									<a href="#">Сейчас действует 1  акция - показать все</a>
+								</div>
+								<div class="form-group dateFrom">
+									<label for="basic" class="control-label">Дата заезда:</label>
+									<input autocomplete="off" type="text" id="dateFrom" readonly="readonly" class="datepicker-here2" value="30.10.2018">
+								</div>
+								<div class="form-group">
+									<label for="search-night" class="control-label">Количество дней:</label>
+									<select class="selectpicker" data-style="caret" id="search-night">
+										<option value="4"  data-night="4 ночи">4 ночи</option>
+										<option value="5"  data-night="5 ночей">5 ночей</option>
+										<option value="6"  data-night="6 ночей">6 ночей</option>
+										<option value="7" selected data-night="7 ночей">7 ночей</option>
+										<option value="8"  data-night="8 ночей">8 ночей</option>
+										<option value="9"  data-night="9 ночей">9 ночей</option>
+										<option value="10"  data-night="10 ночей">10 ночей</option>
+										<option value="11"  data-night="11 ночей">11 ночей</option>
+										<option value="12"  data-night="12 ночей">12 ночей</option>
+										<option value="13"  data-night="13 ночей">13 ночей</option>
+										<option value="14"  data-night="14 ночей">14 ночей</option>
+										<option value="15"  data-night="15 ночей">15 ночей</option>
+										<option value="16"  data-night="16 ночей">16 ночей</option>
+										<option value="17"  data-night="17 ночей">17 ночей</option>
+										<option value="18"  data-night="18 ночей">18 ночей</option>
+										<option value="19"  data-night="19 ночей">19 ночей</option>
+										<option value="20"  data-night="20 ночей">20 ночей</option>
+										<option value="21"  data-night="21 ночь">21 ночь</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label class="control-label">Отдыхающие:</label>
+									<div class="filter__item filter__item--small">
+										<div class="dropdown filter__select">
+											<button class="dropdown-toggle caret btn btn-light" data-toggle="dropdown"><span class="filter-people js-people">2 взрослых</span></button>
+											<ul class="dropdown-menu text-center">
+												<li class="input-with-plus">
+													<a href="#" class="minus" data-min="1">-</a>
+													<input type="text" class="input-with-plus__input" id="search-adult" value="2 взрослых" disabled>
+													<a href="#" class="plus" data-max="4">+</a>
+												</li>
+												<li class="add-child">
+													<a href="#" class="button add-child__button button-primary filter__btn">Добавить ребенка</a>
+													<select name="add_child" class="add-child__select">
+														<option disabled selected>Выберите возраст ребенка</option>
+														<option value="0 лет">0 лет</option>
+														<option value="1 год">1 год</option>
+														<option value="2 года">2 года</option>
+														<option value="3 года">3 года</option>
+														<option value="4 года">4 года</option>
+														<option value="5 лет">5 лет</option>
+														<option value="6 лет">6 лет</option>
+														<option value="7 лет">7 лет</option>
+														<option value="8 лет">8 лет</option>
+														<option value="9 лет">9 лет</option>
+														<option value="10 лет">10 лет</option>
+														<option value="11 лет">11 лет</option>
+														<option value="12 лет">12 лет</option>
+														<option value="13 лет">13 лет</option>
+														<option value="14 лет">14 лет</option>
+														<option value="15 лет">15 лет</option>
+														<option value="16 лет">16 лет</option>
+													</select>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="basic2" class="control-label">Профиль:</label>
+									<select id="basic2" class="selectpicker">
+										<option>без лечения</option>
+										<option selected>с лечением</option>
+									</select>
+								</div>
+								
+								
+								
+								<div class="form-group hidden form-group-profile">
+									<label for="search-night_1" class="control-label">Профиль:</label>
+									<select class="selectpicker" data-style="caret" id="search-night_1">
+										<option value="4"  data-night="любой">любой</option>
+										<option value="5"  data-night="не любой">не любой</option>
+										<option value="6"  data-night="другой">другой</option>
+									</select>
+								</div>
+								<button class="button btn_tours">Получить варианты</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<section class="resort-card container container-fluid">
+					<div class="row resort-card__item">
+						<div class="product">
+							<div class="col-sm-5 col-md-5 col-lg-4">
+								<div class="product__image"  style="background-image: url(img/otel/product-1.jpg);">
+								<a href="#"></a>
+								</div>
+							</div>
+							<div class="col-sm-7 col-md-7 col-lg-5 product__content">
+								<div class="product__content_top">
+									<div class="product-title">
+										<a href="#" class="product-title__link">Номер с частичными удобствами 2-местный</a>
+									</div>
+									<div class="product-text">
+										<p><span>Корпус:</span> №8</p>
+										<p><span>Площадь номера:</span> 12 кв.м.</p>
+										<p><span>Другое:</span> принадлежности гигиены: мыло, полотенца. Возможно подселение.</p>
+										<a href="#">Подробное описание номера</a>
+									</div>
+									<ul class="vantage-list">
+										<li class="vantage-list__li">Моментальное подтверждение</li>
+										<li class="vantage-list__li">Бесплатная отмена бронирования</li>
+									</ul>
+								</div>
+								
+							</div>
+							<div class="col-sm-12 col-md-12 col-lg-3 product__info">
+								<div class="prices-bl">
+									<div href="#" class="product-price">
+										<span class="product-price__sum">4220 руб.</span>
+									</div>
+								</div>
+								<div class="prace-day">
+									<div class="prace-day__inner">
+										<div class="old-price d-xs-flex d-md-none">от&nbsp;<span> 4 399</span> руб.</div>
+										<div class="d-sm-inline">цена за 1 сутки</div>
+										<span class="d-xs-none d-sm-inline">|</span> за 2 человек
+									</div>
+								</div>
+								<div class="product-rate">
+									<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Проживаине, питание ">
+									<div><strong>Вы выбрали: </strong>Тариф с лечением</div>
+									<ins>Что входит в стоимость?</ins>
+									</button>
+								</div>
+								<div class="product-btn">
+									<button>Запросить бронирование</button>
+								</div>
+							</div>
+							
+						</div>
+						<div class="product">
+							<div class="col-sm-5 col-md-5 col-lg-4">
+								<div class="product__image" style="background-image: url(img/otel/product-1.jpg);">
+								<a href="#"></a>
+								</div>
+							</div>
+							<div class="col-sm-7 col-md-7 col-lg-5 product__content">
+								<div class="product__content_top">
+									<div class="product-title">
+										<a href="#" class="product-title__link">Номер с частичными удобствами 2-местный</a>
+									</div>
+									<div class="product-text">
+										<p><span>Корпус:</span> №8</p>
+										<p><span>Площадь номера:</span> 12 кв.м.</p>
+										<p><span>Другое:</span> принадлежности гигиены: мыло, полотенца. Возможно подселение.</p>
+										<a href="#">Подробное описание номера</a>
+									</div>
+									<ul class="vantage-list">
+										<li class="vantage-list__li">Моментальное подтверждение</li>
+										<li class="vantage-list__li">Бесплатная отмена бронирования</li>
+									</ul>
+								</div>
+								
+							</div>
+							<div class="col-sm-12 col-md-12 col-lg-3 product__info">
+								<div class="prices-bl">
+									<div href="#" class="product-price">
+										<span class="product-price__sum">4220 руб.</span>
+									</div>
+								</div>
+								<div class="prace-day">
+									<div class="prace-day__inner">
+										<div class="old-price d-xs-flex d-md-none">от&nbsp;<span> 4 399</span> руб.</div>
+										<div class="d-sm-inline">цена за 1 сутки</div>
+										<span class="d-xs-none d-sm-inline">|</span> за 2 человек
+									</div>
+								</div>
+								<div class="product-rate">
+									<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Проживаине, питание ">
+									<div><strong>Вы выбрали: </strong>Тариф с лечением</div>
+									<ins>Что входит в стоимость?</ins>
+									</button>
+								</div>
+								<div class="product-btn">
+									<button>Запросить бронирование</button>
+								</div>
+							</div>
+							
+						</div>
+						<div class="product">
+							<div class="col-sm-5 col-md-5 col-lg-4">
+								<div class="product__image" style="background-image: url(img/otel/product-1.jpg);">
+								<a href="#"></a>
+								</div>
+							</div>
+							<div class="col-sm-7 col-md-7 col-lg-5 product__content">
+								<div class="product__content_top">
+									<div class="product-title">
+										<a href="#" class="product-title__link">Номер с частичными удобствами 2-местный</a>
+									</div>
+									<div class="product-text">
+										<p><span>Корпус:</span> №8</p>
+										<p><span>Площадь номера:</span> 12 кв.м.</p>
+										<p><span>Другое:</span> принадлежности гигиены: мыло, полотенца. Возможно подселение.</p>
+										<a href="#">Подробное описание номера</a>
+									</div>
+									<ul class="vantage-list">
+										<li class="vantage-list__li">Моментальное подтверждение</li>
+										<li class="vantage-list__li">Бесплатная отмена бронирования</li>
+									</ul>
+								</div>
+								
+							</div>
+							<div class="col-sm-12 col-md-12 col-lg-3 product__info">
+								<div class="prices-bl">
+									<div href="#" class="product-price">
+										<span class="product-price__sum">4220 руб.</span>
+									</div>
+								</div>
+								<div class="prace-day">
+									<div class="prace-day__inner">
+										<div class="old-price d-xs-flex d-md-none">от&nbsp;<span> 4 399</span> руб.</div>
+										<div class="d-sm-inline">цена за 1 сутки</div>
+										<span class="d-xs-none d-sm-inline">|</span> за 2 человек
+									</div>
+								</div>
+								<div class="product-rate">
+									<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Проживаине, питание ">
+									<div><strong>Вы выбрали: </strong>Тариф с лечением</div>
+									<ins>Что входит в стоимость?</ins>
+									</button>
+								</div>
+								<div class="product-btn">
+									<button>Запросить бронирование</button>
+								</div>
+							</div>
+							
+						</div>
+						<div class="product">
+							<div class="col-sm-5 col-md-5 col-lg-4 product__image" >
+								<div class="product__image" style="background-image: url(img/otel/product-1.jpg);">
+								<a href="#"></a>
+								</div>
+							</div>
+							<div class="col-sm-7 col-md-7 col-lg-5 product__content">
+								<div class="product__content_top">
+									<div class="product-title">
+										<a href="#" class="product-title__link">Номер с частичными удобствами 2-местный</a>
+									</div>
+									<div class="product-text">
+										<p><span>Корпус:</span> №8</p>
+										<p><span>Площадь номера:</span> 12 кв.м.</p>
+										<p><span>Другое:</span> принадлежности гигиены: мыло, полотенца. Возможно подселение.</p>
+										<a href="#">Подробное описание номера</a>
+									</div>
+									<ul class="vantage-list">
+										<li class="vantage-list__li">Моментальное подтверждение</li>
+										<li class="vantage-list__li">Бесплатная отмена бронирования</li>
+									</ul>
+								</div>
+								
+							</div>
+							<div class="col-sm-12 col-md-12 col-lg-3 product__info">
+								<div class="prices-bl">
+									<div href="#" class="product-price">
+										<span class="product-price__sum">4220 руб.</span>
+									</div>
+								</div>
+								<div class="prace-day">
+									<div class="prace-day__inner">
+										<div class="old-price d-xs-flex d-md-none">от&nbsp;<span> 4 399</span> руб.</div>
+										<div class="d-sm-inline">цена за 1 сутки</div>
+										<span class="d-xs-none d-sm-inline">|</span> за 2 человек
+									</div>
+								</div>
+								<div class="product-rate">
+									<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Проживаине, питание ">
+									<div><strong>Вы выбрали: </strong>Тариф с лечением</div>
+									<ins>Что входит в стоимость?</ins>
+									</button>
+								</div>
+								<div class="product-btn">
+									<button>Запросить бронирование</button>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="resort-card__btn">
+						<button>Все предложения</button>
+					</div>
+				</section>
+				<section class="video container container-fluid">
+					<div class="row video__container">
+						<h2>Описание</h2>
+					<div class="video__item col-lg-5 col-md-12">
+						<div class="embed-responsive embed-responsive-16by9">
+  							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hv7yzjA5zbI"></iframe>
+						</div>
+					</div>
+					<div class="video__text col-lg-7 col-md-12">
+						
+						<p>Cанаторий «Полтава-Крым» - это уникальный в своем роде грязевой курорт, расположен в городе Саки на берегу. Здравница интересна отдыхающим комфортными условиями проживания, наличием собственного песчаного пляжа и парковой территории, а главное, эффективными методиками лечения, которые позволяют бороться с широким спектром заболеваний. Санаторий идеально подходит для людей, решивших объединить отдых, серьезное лечение и общее оздоровление организма.</p>
+						<p>В здравнице производится лечение заболеваний женских и мужских половых органов, ЛОР-органов, кожи, нервной системы, опорного и двигательного аппаратов. В основе лечения лежит использование целебных свойств грязей, рапы и минеральной воды. В лечении активно применяется физиотерапия, аппаратная физиотерапия, лечебная физкультура, массаж, ингаляции, хождение по терренкурам и так далее.</p>
+						<a href="#">Подробнее</a>
+					</div>
+					</div>
+				</section>
+				<section class="reviews container container-fluid">
+					<div class="row reviews__container">
+						<h2>Последние отзывы</h2>
+						<div class="col-12">
+						<div class="reviews__item">
+							<h6>Лущикова Нэлля Александровна </h6>
+							<ul>
+								<li><img src="img/otel/star.svg" alt="star"></li>
+								<li><img src="img/otel/star.svg" alt="star"></li>
+								<li><img src="img/otel/star.svg" alt="star"></li>
+							</ul>
+							<span>Хабаровск</span>
+							<p>Все было как в раю,все очень понравилось</p>
+						</div>
+					</div>
+						<div class="col-12">
+						<div class="reviews__item">
+							<h6>Ефимов Феликс Витальевич</h6>
+							<ul>
+								<li><img src="img/otel/star.svg" alt="star"></li>
+								<li><img src="img/otel/star.svg" alt="star"></li>
+								<li><img src="img/otel/star.svg" alt="star"></li>
+							</ul>
+							<span>Домо</span>
+							<p>Все отлично,туристы в восторге,все супер,Персонал очень хороший,лечение на высшем уровне,туристка повредила ногу ,сотрудники грамотно и четко сработали.не оставили без внимания предоставили машину и сопровождение до больницы.Единственное однообразное питание.Отзыв можно опубликовать на сайте</p>
+						</div>
+						</div>
+						<div class="col-12">
+						<div class="reviews__item">
+							<h6>Анатолий Дмитриев</h6>
+							<ul>
+								<li><img src="img/otel/star.svg" alt="star"></li>
+								<li><img src="img/otel/star.svg" alt="star"></li>
+								<li><img src="img/otel/star.svg" alt="star"></li>
+							</ul>
+							<span>Республика Бурятия г. Улан-Удэ</span>
+							<p>Отдыхал и личился 11.06.2018 по26.06.2018. Посещаю данный санаторий с 2014 года. С каждым годом в санотории все лучше и лучше по всем пунктам. Конечно и есть небольшие недостатки, а именно; в номерах необходимо установить часы, в деревянном срубе улучшить шумоизоляцию, разъяснить старшему на ресепшене грязевых ванн что хамить клиентам не стоит и предоставлять лечение грязями...</p>
+							<a href="#">Читать полностью</a>
+						</div>
+						</div>
+					
+					</div>
+						<div class="reviews__btn">
+							<button>Читать все отзывы</button>
+						</div>	
+					
+				</section>
+				<section class="popular popular-hotels">
+					<div class="container container-fluid">
+						<h3>Смотрите также</h3>
+						
+						<div class="row popular-hotels owl-carousel owl-carousel4 js-carousel">
+							<div class="col-12 col-md-12 col-lg-3">
+								<div class="popular-block">
+									<div class="popular__img" style="background-image: url(img/popular-1.png)"></div>
+									<div class="popular__city">Гостиничный комплекс Aquamarine Resort & SPA</div>
+									<span class="popular__region"><a href="#">Севастополь</a></span>
+									<a href="#" class="popular__link">Подробнее</a>
+								</div>
+							</div>
+							<div class="col-12 col-md-12 col-lg-3">
+								<div class="popular-block">
+									<div class="popular__img" style="background-image: url(img/popular-2.png)"></div>
+									<div class="popular__city">Отель Riviera Sunrise Resort & SPA (Ривьера, ex.Radisson SAS Resort)</div>
+									<span class="popular__region"><a href="#">Алушта</a></span>
+									<a href="#" class="popular__link">Подробнее</a>
+								</div>
+							</div>
+							<div class="col-12 col-md-12 col-lg-3">
+								<div class="popular-block">
+									<div class="popular__img" style="background-image: url(img/popular-3.png)"></div>
+									<div class="popular__city">Гостиница Апартамент Сон у Моря</div>
+									<span class="popular__region"><a href="#">Курпаты</a></span>
+									<a href="#" class="popular__link">Подробнее</a>
+								</div>
+							</div>
+							<div class="col-12 col-md-12 col-lg-3">
+								<div class="popular-block">
+									<div class="popular__img" style="background-image: url(img/popular-4.png)"></div>
+									<div class="popular__city">Гостиница Вилла Елена</div>
+									<span class="popular__region"><a href="#">Ялта</a></span>
+									<a href="#" class="popular__link">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						
+						
+					</div>
+				</section>
+			</main>
+
+
+<!--popup-->
+<!---->
+	<div class="overlay-js js-popup overlay">
+		<div class="popup">
+			<div class="popup-item popup-item-js">
+				<div class="close-popup js-closepop"></div>
+				<div class="popup-item__tittle">
+					<h2>Центральный офис в Москве</h2>
+				</div>
+				<div class="popup-item__adress">
+						<p>ул. Рождественский бульвар 9, оф. 213</p>
+						<h6>м. Трубная (2 минуты).<a href="#"><img src="img/popup/I.png" alt="img">Как пройти?</a></h6>
+
+						<div class="popup-item__phone">
+							<a href="tel:88003334199">8 800 333 41 99<p>Бесплатно по России</p></a>
+							<a href="tel:+74997030120">+7 499 703 01 20<p>Москва</p></a>
+							<a href="tel:+73652671329">+7 365 267 13 29<p>Крым</p></a>
+						</div>
+					</div>
+					<div class="popup-item__schedule">
+						<h2>График работы:</h2>
+						<p>Отдел бронирования: <span>8:00 - 20:00</span></p>
+						<p>Дежурный менеджер: <strong>круглосуточно</strong></p>
+					</div>
+					<div class="popup-item__country">
+						<h2>Контакты в других странах:</h2>
+						<ul>
+							<li><img src="img/popup/kazakhstan.svg" alt="flag">Казахстан:<a href="tel:7(727)350-52-62">7 (727) 350-52-62</a></li>
+							<li><img src="img/popup/ukraine.svg" alt="flag">Украина:<a href="tel:0(800)750-100">0 (800) 750-100</a></li>
+							<li><img src="img/popup/lithuania.svg" alt="flag">Литва:<a href="tel:3(705)214-09-17">3 (705) 214-09-17</a></li>
+						</ul>
+					</div>
+					<div class="contact-helper helper-contact__networks">
+									
+									<div class="networks-list">
+										<a href="#" class="networks-list__item">
+											<img src="img/chat.svg" alt="chat">
+											<span>Онлайн чат</span>
+										</a>
+										<a href="#" class="networks-list__item">
+											<img src="img/viber.png" alt="chat">
+											<span>viber</span>
+										</a>
+										<a href="#" class="networks-list__item">
+											<img src="img/facebook.png" alt="chat">
+											<span>facebook</span>
+										</a>
+									</div>
+								</div>
+			</div>
+		</div>
+	</div>
+
+
+
+<!--popup-end-->
+
+			<footer class="footer">
+				<div class="container container-fluid">
+					<div class="row">
+						<div class="col-12 col-md-6 col-lg-5">
+							<a href="/" class="footer__logo">
+								<img src="img/logo.png" alt="logo">
+							</a>
+							<div class="footer-row row">
+								<div class="col-12 col-md-6 col-lg-6">
+									<div class="footer__phone">
+										<img src="img/russia.png" alt="" class="footer__img">
+										<span class="footer__ph"><a href="tel:88003334199">8 800-333-41-99</a></span>
+										<span class="footer__ph"><a href="tel:+74997030120">+7 499 703-01-20</a></span>
+									</div>
+								</div>
+								<div class="col-12 col-md-6 col-lg-6">
+									<div class="footer__phone">
+										<img src="img/ukraine.png" alt="" class="footer__img">
+										<span class="footer__ph"><a href="tel:8800750100">8 800-750-100</a></span>
+										<span class="footer__ph"><a href="tel:+380443839285">+38 (044) 383-92-85</a></span>
+									</div>
+								</div>
+							</div>
+							<div class="footer-row row">
+								<div class="col-12 col-md-6 col-lg-6">
+									<div class="footer__phone">
+										<img src="img/lithuania.png" alt="" class="footer__img">
+										<span class="footer__ph"><a href="tel:37052140917">+3 705 214-09-17</a></span>
+									</div>
+								</div>
+								<div class="col-12 col-md-6 col-lg-6">
+									<div class="footer__phone">
+										<img src="img/kazakhstan.png" alt="" class="footer__img">
+										<span class="footer__ph"><a href="tel:77273505262">+7 727 350-52-62</a></span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12">
+									<a href="#" class="button footer__backcall">Заказать звонок</a>
+									
+								</div>
+							</div>
+							<div class="row d-flex justify-content-center">
+								<div class="col-7 col-md-6">
+									<span class="soc">Мы в соц. сетях:</span>
+									<div class="row">
+										<div class="col-6">
+											<a href="#" class="soc__name soc__name_yout soc__name_right">YouTube</a>
+										</div>
+										<div class="col-6">
+											<a href="#" class="soc__name soc__name_faceb soc__name_left">Facebook</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-2 tablet-hidden">
+							<div class="first-list-wrapper ">
+								<ul class="footer__list ">
+									<li class="footer__item"><a href="#" class="footer__link">Россия</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Беларусь</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Украина</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Подмосковье</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Алтай</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Абхазия</a></li>
+								</ul>
+								<ul class="footer__list tablet-hidden" >
+									<li class="footer__item"><span class="footer__name">Краснодарский край</span></li>
+									<li class="footer__item"><a href="#" class="footer__link">Сочи</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Геленджик</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Туапсе</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Анапа</a></li>
+								</ul>
+								<ul class="footer__list tablet-hidden">
+									<li class="footer__item"><span class="footer__name">КавМинВоды</span></li>
+									<li class="footer__item"><a href="#" class="footer__link">Ессентуки</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Железноводск</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Кисловодск</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Пятигорск</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-12 col-md-2 tablet-hidden">
+							<div class="second-list-wrapper">
+								<ul class="footer__list ">
+									<li class="footer__item"><span class="footer__name">Крым</span></li>
+									<li class="footer__item"><a href="#" class="footer__link">ЮБК</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Ялта</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Алушта</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Гурзуф</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Ливадия</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Алупка</a></li>
+								</ul>
+								<ul class="footer__list">
+									<li class="footer__item"><span class="footer__name">Западный крым</span></li>
+									<li class="footer__item"><a href="#" class="footer__link">Евпатория</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Саки</a></li>
+								</ul>
+								<ul class="footer__list">
+									<li class="footer__item"><span class="footer__name">Восточный крым</span></li>
+									<li class="footer__item"><a href="#" class="footer__link">Феодосия</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Судак</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3">
+							<div class="third-list-wrapper">
+								<div class="footer__info footer__info_mt d_n tablet-hidden">
+									<span class="footer__name">О компании</span>
+									<p class="footer__text">ООО "Система бронирования Путевка"</p>
+								</div>
+								<ul class="footer__list tablet-show">
+									<li class="footer__item"><a href="#" class="footer__link">Россия</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Беларусь</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Украина</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Подмосковье</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Алтай</a></li>
+									<li class="footer__item"><a href="#" class="footer__link">Абхазия</a></li>
+								</ul>
+								<div class="footer__info documents">
+									<span class="footer__name">Документы</span>
+									<p class="footer__text">ИНН/КПП 7725851033/771401001</p>
+									<p class="footer__text">Лицензия туроператора PTO 014980</p>
+								</div>
+								<div class="footer__info ofice">
+									<span class="footer__name ">Центральный офис в Москве</span>
+									<p class="footer__text">ул. Рождественский бульвар 9, оф. 213</p>
+									<p class="footer__text">Метро Трубная (2 минуты)</p>
+									<a href="#" class="footer__lin">Схема проезда</a>
+								</div>
+								<div class="footer__info d_n tablet-hidden ">
+									<span class="footer__name">Офис для партнеров</span>
+									<p>Москва, ул. Хуторская 2-я, 31А </p>
+								</div>
+								
+								<div class="footer__info d_n tablet-hidden">
+									<span class="footer__name">Офис в Украине</span>
+									<p class="footer__text">Киев, ул. Княжий затон, 9а</p>
+									<p class="footer__text">ЕГРПОУ: 38899234</p>
+									<p class="footer__text">Лицензия туроператора №2272586</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="container">
+						<p class="footer__txt">Официальный сайт Путевка.ком - Все права защищены.</p>
+						<a href="#" class="footer__policy">Политика конфиденциальности</a>
+					</div>
+				</div>
+			</footer>
+			<div class="icon-load"></div>
+			<script src="js/jquery.min.js"></script>
+			<script src="js/bootstrap.bundle.min.js"></script>
+			<script src="js/bootstrap-select.js"></script>
+			<script src="js/datepicker.min.js"></script>
+			<script src="js/bootstrap-multiselect.js"></script>
+			<script src="js/jquery.equalheights.min.js"></script>
+			<script src="js/components/owl.carousel.min.js"></script>
+			<script src="js/main.js"></script>
+		</body>
+	</html>
