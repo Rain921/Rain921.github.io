@@ -1,0 +1,358 @@
+.box-frinchise {
+    padding-top: 120px;
+    @media(max-width: 767px) {
+        padding-top: 40px;
+        max-height: 740px;
+    }
+    @media(min-height: 721px) {
+        padding-top: 0;
+    }
+    .fp-tableCell {
+
+        @media(max-width: 767px) {
+            height: 740px;
+        }
+        @media(max-width: 375px) {
+            max-height: 650px;
+        }
+        @media(max-width: 375px) and (max-height: 700px) {
+            height: 600px !important;
+        }
+        @media(max-height: 720px) {
+          display: block !important;
+        }
+    }
+    @media(max-width: 767px) {
+        padding-top: 20px;
+    }
+    &-shutter {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        @media(max-width: 767px) {
+            display: none;
+        }
+        &__item {
+            position: absolute;
+            height: 100%;
+            background: #191925;
+            z-index: 1;
+            top: 0;
+            &_1 {
+                left: 40%;
+            }
+            &_2 {
+                left: 60%;
+            }
+            &_3 {
+                left: 80%;
+            }
+        }
+    }
+    &-wrap-item {
+        display: inline-flex !important;
+        justify-content: space-between;
+        @media(max-width: 767px) {
+            display: inline-block !important;
+        }
+    }
+    &-left {
+        width: 40%;
+        padding-right: 50px;
+        padding-left: calc(40px + 1%);
+        position: relative;
+        @media(max-width: 992px) {
+            padding-right: 25px;
+        }
+        @media(max-width: 800px) {
+            padding-right: 15px;
+        }
+        @media(max-width: 767px) {
+            width: 100%;
+            padding: 0 20px;
+        }
+        &__h2-count {
+            position: absolute;
+            left: calc(45px + 1%);
+            top: 48px;
+            font-size: 77px;
+            font-weight: 100;
+            color: #e2cba2;
+            @media(max-width: 992px) {
+                font-size: 68px;
+                top: -5px;
+            }
+            @media(max-width: 767px) {
+                left: 20px;
+            }
+            i {
+                font-style: normal;
+                display: inline-block;
+            }
+        }
+        h2 {
+            font-size: 30px;
+            color: #e2cba2;
+            font-weight: 700;
+            margin-bottom: 17px;
+            padding-left: 90px;
+            position: relative;
+            padding-top: 60px;
+            line-height: 36px;
+            overflow: hidden;
+            @media(max-width: 992px) {
+                font-size: 24px;
+                padding-left: 80px;
+                padding-top: 0;
+            }
+        }
+        .h2-descr {
+            @media(max-width: 767px) {
+                margin-bottom: 20px;
+            }
+            p {
+                color: #cfcfcf;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 21px;
+                padding-bottom: 0;
+                b {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    &-right {
+        width: 60%;
+        max-height: 500px;
+        overflow: hidden;
+        @media(max-width: 767px) {
+            width: 100%;
+            max-height: 300px;
+        }
+        .frinchise__img {
+            height: auto;
+            width: 100%;
+            overflow: hidden;
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
+    #frinchise-slider {
+        padding-bottom: 0;
+        position: relative;
+        .slick-prev,
+        .slick-next {
+            position: absolute;
+            top: 303px;
+            background: transparent;
+            display: block;
+            width: 50px;
+            height: 50px;
+            left: calc(40px + 1%);
+            font-size: 0;
+            z-index: 10;
+            @media(max-width: 1080px) {
+                top: auto;
+                bottom: 0;
+            }
+            @media(max-width: 767px) {
+                top: auto;
+                left: 50%;
+                margin-left: -60px;
+            }
+            &:before {
+                top: 20px;
+            }
+        }
+        .slick-next {
+            left: calc(110px + 1%);
+            @media(max-width: 767px) {
+                left: 50%;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+.slide-show.box-frinchise {
+    .slick-active h2 {
+        animation-name: head-translate;
+        animation-duration: .8s;
+        animation-fill-mode: both;
+        @media(max-width: 767px) {
+            animation-name: none;
+        }
+    }
+    .slick-active .h2-descr p {
+        animation-name: h2-descr-transform;
+        animation-fill-mode: both;
+        animation-duration: .8s;
+        animation-delay: .9s;
+        @media(max-width: 767px) {
+            animation-name: none;
+        }
+    }
+    .slick-active .box-frinchise-right img {
+        animation-name: img-fade;
+        animation-fill-mode: both;
+        animation-duration: .5s;
+        animation-delay: 1.2s;
+        @media(max-width: 767px) {
+            animation-name: none;
+        }
+    }
+    .slick-active .box-frinchise-left__h2-count i {
+        transform: translateY(130%);
+        animation-name: h2-count;
+        animation-duration: .4s;
+        animation-fill-mode: both;
+        @media(max-width: 767px) {
+            animation-name: none;
+            transform: translateY(0);
+        }
+    }
+
+    .js-frinchise-shutter-animation {
+        transform-origin: left;
+        animation-duration: .3s;
+        animation-fill-mode: both;
+        animation-timing-function: ease-out;
+        width: 20%;
+        @media(max-width: 767px) {
+            animation-name: none;
+        }
+    }
+    .js-ready-shutter {
+        animation-name: ready-shutter;
+        animation-duration: .3s;
+        animation-delay: .2s;
+        animation-fill-mode: both;
+        animation-timing-function: ease-out;
+        transform-origin: left;
+    }
+    .slick-prev,
+    .slick-next {
+        animation-name: frinchise-slider-button;
+        animation-duration: .7s;
+        animation-fill-mode: both;
+        @media(max-width: 767px) {
+            animation-name: none;
+        }
+    }
+}
+
+@keyframes head-translate {
+    from {
+        transform: translateX(-120%);
+        opacity: 0;
+    }
+    65% {
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes h2-descr-transform {
+    from {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes ready-shutter {
+    from {
+        transform: scaleX(1);
+        width: 20%;
+    }
+    100% {
+        transform: scaleX(0);
+        width: 0;
+    }
+}
+
+@keyframes h2-count {
+    from {
+        transform: translateY(130%);
+        opacity: .4;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes frinchise-shutter {
+    from {
+        transform: scaleX(0);
+        width: 0;
+    }
+    100% {
+        transform: scaleX(1);
+        width: 20%;
+    }
+}
+
+@keyframes frinchise-shutter-reverse {
+    from {
+        transform: scaleX(1);
+        width: 20%;
+    }
+    100% {
+        transform: scaleX(0);
+        width: 0;
+    }
+}
+
+@keyframes frinchise-slider-button {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        width: 1;
+    }
+}
+@media (max-width: 1080px) {
+    .box-frinchise #frinchise-slider {
+        margin-bottom: 100px;
+    }
+    .box-frinchise-left {
+        padding-bottom: 80px
+    }
+    .box-frinchise-right {
+        width: 55%
+    }
+    .box-frinchise-left {
+        width: 45%;
+    }
+    .slide-text-wrapper {
+        width: 55%;
+    }
+}
+@media (max-width: 767px) {
+    .box-frinchise-left {
+        width: 100%;
+    }
+    .box-frinchise-right {
+        width: 100%;
+    }
+    .box-frinchise-left {
+        padding-bottom: 20px;
+    }
+    .box-frinchise #frinchise-slider .slick-prev, .box-frinchise #frinchise-slider .slick-next {
+
+        bottom: -71px;
+    }
+}
