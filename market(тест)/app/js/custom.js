@@ -161,8 +161,8 @@ $(document).ready(function () {
 			dots: false,
 			arrows: true,
 			centerPadding: '10px',
-			prevArrow: '<img src="/img/icons/back.svg" data-role="none" class="product-slider__L" aria-label="Previous" tabindex="0" role="button" />',
-			nextArrow: '<img src="/img/icons/right-arrow.svg" data-role="none"class="product-slider__R" aria-label="Next" tabindex="0" role="button" />',
+			prevArrow: '<img src="./img/icons/back.svg" data-role="none" class="product-slider__L" aria-label="Previous" tabindex="0" role="button" />',
+			nextArrow: '<img src="./img/icons/right-arrow.svg" data-role="none"class="product-slider__R" aria-label="Next" tabindex="0" role="button" />',
 			focusOnSelect: true,
 			responsive: [{
 				breakpoint: 741,

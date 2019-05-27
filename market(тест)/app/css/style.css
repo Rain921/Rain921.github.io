@@ -190,7 +190,7 @@ header a { color: #fff; font-weight: 300; font-size: 14px; }
 
 .core-menu .dropdown li { border-bottom: 1px solid #ccc; padding: 10px; padding-left: 15px; list-style: none; position: relative; }
 
-.core-menu .dropdown li::after { content: ''; position: absolute; top: 20%; right: 7%; width: 20px; height: 20px; background-image: url(/img/icons/Group_357.svg); background-position: center; background-repeat: no-repeat; }
+.core-menu .dropdown li::after { content: ''; position: absolute; top: 20%; right: 7%; width: 20px; height: 20px; background-image: url(./img/icons/Group_357.svg); background-position: center; background-repeat: no-repeat; }
 
 .core-menu .dropdown a { color: #333; width: 100%; display: block; }
 
