@@ -1,0 +1,194 @@
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
+footer {
+    margin-top: 142px;
+    background-color: #f2f2f2;
+    text-align: left;
+    width: 100%;
+    min-width: $min-width;
+    order: 3;
+    -webkit-order: 3;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 200px;
+}
+
+.curse {
+    &__currency {
+        display: inline-block;
+        padding-top: 29px;
+
+        span {
+            text-transform: uppercase;
+            letter-spacing: 0.42px;
+            color: #333333;
+            font-weight: 500;
+            font-size: 14px;
+
+
+
+        }
+
+        &:last-child .currency {
+            padding-right: 0px !important;
+
+        }
+    }
+
+    .currency {
+        font-weight: 400;
+        padding-right: 30px;
+
+
+
+
+    }
+}
+
+.list-footer {
+    display: flex;
+    max-width: 589px;
+    padding-top: 15px;
+    width: 49%;
+    justify-content: space-between;
+
+    &__active {
+        border-bottom: 2px solid #333;
+    }
+
+    .tel {
+
+        a:hover {
+            border-bottom: 2px solid #333;
+
+        }
+    }
+
+    .mail {
+
+        a:hover {
+            border-bottom: 2px solid #333;
+
+        }
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a:hover {
+        border-bottom: 2px solid #333;
+
+    }
+
+    a {
+        color: #333333;
+        line-height: 30px;
+        letter-spacing: 0.42px;
+        font-size: 14px;
+
+        font-weight: 400;
+    }
+
+    li {
+        line-height: 30px;
+        letter-spacing: 0.42px;
+        font-size: 14px;
+        color: #333333;
+
+
+    }
+
+}
+
+.subsscribe {
+    padding-top: 15px;
+    padding-bottom: 30px;
+
+    input {
+        height: 35px;
+        border: none;
+        width: 174px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        &:focus {
+            outline: 2px solid #3fabe1;
+
+        }
+
+    }
+
+    button {
+        width: 102px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        height: 35px;
+        background-color: #244690;
+        border: none;
+    }
+
+}
+
+.soc {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+    a {
+        font-size: 25px;
+        padding-right: 25px;
+
+
+
+    }
+
+    .icon-Path_234 {
+        font-size: 20px;
+        transition: all 0.2s linear;
+
+
+    }
+
+    .icon-Path_234:hover:before {
+        color: red;
+        transition: all 0.2s linear;
+    }
+
+    .icon-Path_669:hover:before {
+        color: red;
+        transition: all 0.2s linear;
+    }
+
+    .icon-wats:hover:before {
+        color: red;
+        transition: all 0.2s linear;
+    }
+}
+
+.subsscribe-foter {
+    span {
+        font-size: 14px;
+        color: #333333;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (min-width: 992px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media screen and (max-width: 767px) {}
