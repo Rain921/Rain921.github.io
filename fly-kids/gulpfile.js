@@ -27,7 +27,7 @@ const Config = {
     'node_modules/slick-carousel/slick/slick.min.js',
     'node_modules/air-datepicker/dist/js/datepicker.min.js',
     'node_modules/jquery-form-styler/dist/jquery.formstyler.js',
-    'src/js/stickyfloat.js',
+    //'src/js/stickyfloat.js',
    
     // scripts
     'src/js/setting.js',
