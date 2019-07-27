@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="770px" viewBox="0 0 1920 770" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main_1920" transform="translate(0.000000, -5538.000000)" fill="#D3B464" fill-rule="nonzero">
+            <g id="contacts" transform="translate(0.000000, 5307.000000)">
+                <polygon id="Rectangle" transform="translate(960.000000, 616.000000) scale(-1, -1) translate(-960.000000, -616.000000) " points="4.54747351e-13 849.457031 4.54747351e-13 358.363281 1254 231 1920 377.634932 1920 877.91793 758 1001"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

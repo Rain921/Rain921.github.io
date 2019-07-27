@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main_1920" transform="translate(-340.000000, -5652.000000)" fill="#D3B464" fill-rule="nonzero">
+            <g id="contacts" transform="translate(0.000000, 5302.000000)">
+                <g transform="translate(339.000000, 189.000000)" id="phone">
+                    <g transform="translate(1.000000, 83.000000)">
+                        <g transform="translate(0.000000, 67.000000)">
+                            <path d="M3.2,17.9333333 C4.44444444,20.4222222 6.57777778,22.4666667 9.06666667,23.8 L11.0222222,21.8444444 C11.288854,21.5778126 11.6444444,21.4889237 11.9111111,21.6666667 C12.8888889,22.0222222 13.9555207,22.2 15.1111111,22.2 C15.6444444,22.2 16,22.5555556 16,23.0888889 L16,26.1111111 C16,26.6444444 15.6444444,27 15.1111111,27 C6.75555556,27 0,20.2444444 0,11.8888889 C0,11.3555556 0.355555556,11 0.888888889,11 L4,11 C4.53333333,11 4.88888889,11.3555556 4.88888889,11.8888889 C4.88888889,12.9555556 5.06666667,14.0222222 5.42222222,15.0888889 C5.51111111,15.3555556 5.42222222,15.7111111 5.24444444,15.9777778 L3.2,17.9333333 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

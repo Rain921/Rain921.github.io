@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80.461" height="32.664" viewBox="0 0 80.461 32.664">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #d3b464;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="menu" transform="translate(0.359 0.632)">
+    <g id="menu-2" data-name="menu">
+      <g id="Group_6" data-name="Group 6" transform="translate(28.916)">
+        <path id="Line_3" data-name="Line 3" class="cls-1" d="M50.6,0,.482,9.4"/>
+        <path id="Line_3_Copy" data-name="Line 3 Copy" class="cls-1" d="M50.6,0,.482,9.4" transform="translate(0 11)"/>
+        <path id="Line_3_Copy_2" data-name="Line 3 Copy 2" class="cls-1" d="M50.6,0,.482,9.4" transform="translate(0 22)"/>
+      </g>
+      <g id="Group_6_Copy" data-name="Group 6 Copy" transform="translate(28.916) rotate(180)">
+        <path id="Line_3-2" data-name="Line 3" class="cls-1" d="M-28.643,0-.273,9.4" transform="rotate(-180)"/>
+        <path id="Line_3_Copy-2" data-name="Line 3 Copy" class="cls-1" d="M-28.643,0-.273,9.4" transform="translate(0 -11) rotate(-180)"/>
+        <path id="Line_3_Copy_2-2" data-name="Line 3 Copy 2" class="cls-1" d="M-28.643,0-.273,9.4" transform="translate(0 -22) rotate(-180)"/>
+      </g>
+    </g>
+  </g>
+</svg>

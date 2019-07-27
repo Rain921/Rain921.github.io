@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="86px" viewBox="0 0 86 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>plus_calm</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="investors_1440" transform="translate(-677.000000, -2338.000000)" fill-rule="nonzero">
+            <g id="hungary" transform="translate(-239.000000, 1509.000000)">
+                <g id="Group-4" transform="translate(0.000000, 487.000000)">
+                    <g id="Group-3" transform="translate(239.000000, 35.000000)">
+                        <g id="plus_calm" transform="translate(677.000000, 307.000000)">
+                            <circle id="Oval" fill-opacity="0.78" fill="#FFFFFF" cx="43" cy="43" r="43"></circle>
+                            <rect id="Rectangle" fill="#D3B464" x="42" y="34" width="3" height="19"></rect>
+                            <rect id="Rectangle" fill="#D3B464" transform="translate(43.500000, 43.500000) rotate(90.000000) translate(-43.500000, -43.500000) " x="42" y="34" width="3" height="19"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

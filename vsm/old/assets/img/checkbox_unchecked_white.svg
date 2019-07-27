@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hoverlist" transform="translate(-89.000000, -3607.000000)" fill-rule="nonzero" stroke="#FFFFFF">
+            <g id="Group-8" transform="translate(59.000000, 3078.000000)">
+                <g id="Group-4" transform="translate(30.000000, 139.000000)">
+                    <g id="form" transform="translate(0.000000, 124.000000)">
+                        <g id="Group-2" transform="translate(0.000000, 264.000000)">
+                            <rect id="Rectangle" x="0.5" y="2.5" width="15" height="15"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

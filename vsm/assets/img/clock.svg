@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>clock-with-white-face</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main_1920" transform="translate(-340.000000, -5854.000000)" fill="#D3B464" fill-rule="nonzero">
+            <g id="contacts" transform="translate(0.000000, 5302.000000)">
+                <g transform="translate(339.000000, 189.000000)" id="time">
+                    <g transform="translate(1.000000, 83.000000)">
+                        <g transform="translate(0.000000, 272.000000)">
+                            <g id="clock-with-white-face" transform="translate(0.000000, 8.000000)">
+                                <path d="M8,0 C3.6,0 0,3.6 0,8 C0,12.4 3.6,16 8,16 C12.4,16 16,12.4 16,8 C16,3.6 12.4,0 8,0 Z M8,14.4 C4.48,14.4 1.6,11.52 1.6,8 C1.6,4.48 4.48,1.6 8,1.6 C11.52,1.6 14.4,4.48 14.4,8 C14.4,11.52 11.52,14.4 8,14.4 Z" id="Shape"></path>
+                                <polygon id="Path" points="8.4 4 7.2 4 7.2 8.8 11.36 11.36 12 10.32 8.4 8.16"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

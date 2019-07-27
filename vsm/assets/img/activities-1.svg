@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="652px" height="273px" viewBox="0 0 652 273" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>activities-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="521.138257 271 1.74971149e-13 271 1.74971149e-13 0 650 0 650 271 589.0625 271"></polygon>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#D3B464" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main_1440_ui" transform="translate(-59.000000, -1044.000000)">
+            <g id="activity" transform="translate(60.000000, 754.000000)">
+                <g id="activities" transform="translate(0.000000, 291.000000)">
+                    <g id="1">
+                        <g id="activities-1">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <path stroke="#D3B464" d="M650.5,271.5 L-0.5,271.5 L-0.5,-0.5 L650.5,-0.5 L650.5,271.5 Z"></path>
+                            <g id="Group-109" opacity="0.67" mask="url(#mask-2)" stroke="url(#linearGradient-3)" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="3">
+                                <g transform="translate(487.000000, 75.000000)">
+                                    <polyline id="Stroke-1" points="59 9.23089926 86.2791518 0 128 10"></polyline>
+                                    <polyline id="Stroke-3" points="59 19.2296744 86.2791518 10 128 20"></polyline>
+                                    <polyline id="Stroke-4" points="59 29.3087324 86.2791518 21 128 30"></polyline>
+                                    <polyline id="Stroke-5" points="59 39.307417 86.2791518 31 128 40"></polyline>
+                                    <polyline id="Stroke-6" points="59 49.3847454 86.2791518 42 128 50"></polyline>
+                                    <polyline id="Stroke-7" points="59 59.3851702 86.2791518 52 128 60"></polyline>
+                                    <polyline id="Stroke-8" points="59 68.4624487 86.2791518 62 128 69"></polyline>
+                                    <polyline id="Stroke-9" points="59 79.4612585 86.2791518 73 128 80"></polyline>
+                                    <polyline id="Stroke-10" points="59 88.5385915 86.2791518 83 128 89"></polyline>
+                                    <polyline id="Stroke-11" points="59 98.5390289 86.2791518 93 128 99"></polyline>
+                                    <polyline id="Stroke-12" points="59 108.614735 86.2791518 104 128 109"></polyline>
+                                    <polyline id="Stroke-13" points="59 118.615096 86.2791518 114 128 119"></polyline>
+                                    <polyline id="Stroke-14" points="59 128.690748 86.2791518 125 128 129"></polyline>
+                                    <polyline id="Stroke-15" points="59 138.692754 86.2791518 135 128 139"></polyline>
+                                    <polyline id="Stroke-16" points="59 148.768581 86.2791518 146 128 149"></polyline>
+                                    <polyline id="Stroke-17" points="59 158.768763 86.2791518 156 128 159"></polyline>
+                                    <polyline id="Stroke-18" points="59 167.846154 86.2791518 166 128 168"></polyline>
+                                    <polyline id="Stroke-19" points="59 177.751 86.2791518 176.113 128 177.887"></polyline>
+                                    <polyline id="Stroke-20" points="59 188.5 86.2791518 187.408 128 188.592"></polyline>
+                                    <polyline id="Stroke-24" points="141.077365 46.4027837 163.093182 38.6189061 189.183081 47.0521714"></polyline>
+                                    <polyline id="Stroke-26" points="141.077365 54.4892408 163.093182 47.0949959 189.183081 55.1052816"></polyline>
+                                    <polyline id="Stroke-28" points="141.077365 62.5749959 163.093182 55.5686286 189.183081 63.1594449"></polyline>
+                                    <polyline id="Stroke-30" points="141.077365 70.6614531 163.093182 64.0447184 189.183081 71.2125551"></polyline>
+                                    <polyline id="Stroke-32" points="141.077365 78.7470327 163.093182 72.5199306 189.183081 79.2665429"></polyline>
+                                    <polyline id="Stroke-34" points="141.077365 86.8327878 163.093182 80.9953184 189.183081 87.318951"></polyline>
+                                    <polyline id="Stroke-36" points="141.077365 94.9192449 163.093182 89.4714082 189.183081 95.3720612"></polyline>
+                                    <polyline id="Stroke-38" points="141.077365 103.004824 163.093182 97.9466204 189.183081 103.426049"></polyline>
+                                    <polyline id="Stroke-40" points="141.077365 111.090404 163.093182 106.421833 189.183081 111.480037"></polyline>
+                                    <polyline id="Stroke-42" points="141.077365 119.177037 163.093182 114.896343 189.183081 119.533322"></polyline>
+                                    <polyline id="Stroke-44" points="141.077365 127.262616 163.093182 123.371555 189.183081 127.58731"></polyline>
+                                    <polyline id="Stroke-46" points="141.077365 135.348196 163.093182 131.846767 189.183081 135.641298"></polyline>
+                                    <polyline id="Stroke-48" points="141.077365 143.434829 163.093182 140.321278 189.183081 143.694584"></polyline>
+                                    <polyline id="Stroke-50" points="141.077365 151.520408 163.093182 148.79649 189.183081 151.746816"></polyline>
+                                    <polyline id="Stroke-52" points="141.077365 159.606865 163.093182 157.270824 189.183081 159.799927"></polyline>
+                                    <polyline id="Stroke-54" points="141.077365 167.692445 163.093182 165.747792 189.183081 167.853914"></polyline>
+                                    <polyline id="Stroke-56" points="141.077365 175.779078 163.093182 174.222302 189.183081 175.908955"></polyline>
+                                    <polyline id="Stroke-58" points="141.077365 183.864657 163.093182 182.695759 189.183081 183.962943"></polyline>
+                                    <polyline id="Stroke-60" points="141.077365 191.950237 163.093182 191.172727 189.183081 192.016931"></polyline>
+                                    <polyline id="Stroke-66" points="0.601245872 65.9395265 19.958833 59.0963837 45.701778 66.5081796"></polyline>
+                                    <polyline id="Stroke-68" points="0.601245872 73.0480408 19.958833 66.5471429 45.701778 73.5903673"></polyline>
+                                    <polyline id="Stroke-70" points="0.601245872 80.1567306 19.958833 73.9980776 45.701778 80.6692204"></polyline>
+                                    <polyline id="Stroke-72" points="0.601245872 87.2671755 19.958833 81.4507673 45.701778 87.7515837"></polyline>
+                                    <polyline id="Stroke-74" points="0.601245872 94.3758653 19.958833 88.8999469 45.701778 94.8321918"></polyline>
+                                    <polyline id="Stroke-76" points="0.601245872 101.484555 19.958833 96.3526367 45.701778 101.9128"></polyline>
+                                    <polyline id="Stroke-78" points="0.601245872 108.594122 19.958833 103.802694 45.701778 108.994286"></polyline>
+                                    <polyline id="Stroke-80" points="0.601245872 115.702812 19.958833 111.255384 45.701778 116.073139"></polyline>
+                                    <polyline id="Stroke-82" points="0.601245872 122.81238 19.958833 118.707196 45.701778 123.154624"></polyline>
+                                    <polyline id="Stroke-84" points="0.601245872 129.921771 19.958833 126.157078 45.701778 130.23418"></polyline>
+                                    <polyline id="Stroke-86" points="0.601245872 137.030461 19.958833 133.609767 45.701778 137.314788"></polyline>
+                                    <polyline id="Stroke-88" points="0.601245872 144.140029 19.958833 141.06158 45.701778 144.396273"></polyline>
+                                    <polyline id="Stroke-90" points="0.601245872 151.248718 19.958833 148.512514 45.701778 151.476882"></polyline>
+                                    <polyline id="Stroke-92" points="0.601245872 158.358286 19.958833 155.962571 45.701778 158.556612"></polyline>
+                                    <polyline id="Stroke-94" points="0.601245872 165.467853 19.958833 163.414384 45.701778 165.638098"></polyline>
+                                    <polyline id="Stroke-96" points="0.601245872 172.576543 19.958833 170.867073 45.701778 172.720461"></polyline>
+                                    <polyline id="Stroke-98" points="0.601245872 179.685935 19.958833 178.316955 45.701778 179.800016"></polyline>
+                                    <polyline id="Stroke-100" points="0.601245872 186.795502 19.958833 185.768767 45.701778 186.879747"></polyline>
+                                    <polyline id="Stroke-102" points="0.601245872 193.904192 19.958833 193.219702 45.701778 193.96211"></polyline>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

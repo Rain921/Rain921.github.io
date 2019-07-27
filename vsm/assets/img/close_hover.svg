@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>close_hover</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hoverlist" transform="translate(-545.000000, -3217.000000)" fill-rule="nonzero">
+            <g id="Group-8" transform="translate(59.000000, 3078.000000)">
+                <g id="Group-4" transform="translate(30.000000, 139.000000)">
+                    <g id="close_hover" transform="translate(456.000000, 0.000000)">
+                        <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="60" height="60"></rect>
+                        <g id="Group" transform="translate(17.500000, 17.500000)" fill="#D3B464">
+                            <polygon id="Rectangle" transform="translate(12.206010, 12.206010) rotate(45.000000) translate(-12.206010, -12.206010) " points="-4.19279961 11.3429147 28.6048194 11.3429147 28.6048194 13.0691052 -4.19279961 13.0691052"></polygon>
+                            <polygon id="Rectangle" transform="translate(12.206010, 12.206010) scale(-1, 1) rotate(45.000000) translate(-12.206010, -12.206010) " points="-4.19279961 11.3429147 28.6048194 11.3429147 28.6048194 13.0691052 -4.19279961 13.0691052"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

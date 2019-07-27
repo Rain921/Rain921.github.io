@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="134.244" height="124.828" viewBox="0 0 134.244 124.828">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        opacity: 0.491;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        filter: url(#Combined_Shape);
+      }
+    </style>
+    <filter id="Combined_Shape" x="11" y="1" width="123.244" height="123.828" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.095" x2="0.806" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5eeb8"/>
+      <stop offset="0.528" stop-color="#e9dfa6"/>
+      <stop offset="1" stop-color="#817958"/>
+    </linearGradient>
+  </defs>
+  <g id="map" transform="translate(-650 -66)">
+    <g id="placeholder" transform="translate(650 66)">
+      <g class="cls-3" transform="matrix(1, 0, 0, 1, 0, 0)">
+        <path id="Combined_Shape-2" data-name="Combined Shape" class="cls-1" d="M-14,61.832H-59a137.382,137.382,0,0,0,22.5,23A137.347,137.347,0,0,0-14,61.832Zm3.3-4C-5.32,49.993-.971,41.05,0,31.832H-72c.972,9.218,5.321,18.161,10.7,26Zm10.7-30C-.082,8.131-5.954.312-25.953,0c0,0-46.966,8.131-47.047,27.832Z" transform="translate(128.24 53.79) rotate(43)"/>
+      </g>
+      <path id="Combined_Shape-3" data-name="Combined Shape" class="cls-2" d="M14,70H59A137.324,137.324,0,0,1,36.5,93,137.29,137.29,0,0,1,14,70Zm-3.3-4C5.32,58.162.971,49.218,0,40H72c-.972,9.219-5.321,18.162-10.7,26ZM0,36C.082,16.3,16.2.328,36.2.014V0c.1,0,.2.005.3.005S36.7,0,36.8,0V.014C56.8.328,72.919,16.3,73,36Z"/>
+    </g>
+  </g>
+</svg>

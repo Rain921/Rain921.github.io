@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="754.588" height="508.473" viewBox="0 0 754.588 508.473">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #d3b464;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #d3b464;
+      }
+    </style>
+  </defs>
+  <g id="shape" transform="translate(0.588)">
+    <path id="Path_2" data-name="Path 2" class="cls-1" d="M0,505.074,750,355.162V0" transform="translate(0 2.81)"/>
+    <circle id="Oval_Copy_55" data-name="Oval Copy 55" class="cls-2" cx="3" cy="3" r="3" transform="translate(748 283)"/>
+    <circle id="Oval_Copy_56" data-name="Oval Copy 56" class="cls-2" cx="3" cy="3" r="3" transform="translate(748 140)"/>
+    <circle id="Oval_Copy_57" data-name="Oval Copy 57" class="cls-2" cx="3" cy="3" r="3" transform="translate(748)"/>
+  </g>
+</svg>
