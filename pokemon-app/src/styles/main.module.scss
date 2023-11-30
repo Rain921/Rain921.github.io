@@ -1,0 +1,133 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.TypeFilterWrapper {
+  display: flex;
+  justify-content: center;
+
+}
+.MainContent {
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+  height: 100%;
+  .Error {
+    color: red;
+    text-align: center;
+    font-size: 27px;
+  }
+}
+
+.Loading {
+  text-align: center;
+  font-size: 25px;
+}
+
+.PokemonListWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.PaginationWrapper {
+  margin-top: 16px;
+  padding-bottom: 20px;
+  text-align: center;
+
+
+  button {
+    margin: 4px 4px;
+  }
+}
+
+.SearchBarWrapper {
+  margin: 16px 0;
+  display: flex;
+  justify-content: center;
+  input {
+    width: 500px;
+  }
+}
+
+.TypeFilter {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+
+  select {
+    padding: 8px;
+    font-size: 1rem;
+  }
+}
+
+.PokemonDetailContainer {
+  ul {
+    display: flex;
+    max-width: 450px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto 10px auto;
+    li {
+      margin: 2px;
+    }
+  }
+}
+.PokemonDetailContainerType {
+  li {
+    cursor: pointer;
+    &:hover{
+      opacity: .8;
+    }
+  }
+}
+
+.Pagination {
+  margin-bottom: 20px;
+}
+
+.PokemonDetail {
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    margin-top: 16px;
+    font-size: 2rem;
+  }
+
+  p {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #555;
+  }
+
+  button {
+    margin-top: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
+
+
